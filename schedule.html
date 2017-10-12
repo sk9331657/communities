@@ -1,417 +1,137 @@
+<!DOCTYPE html>
 <html>
+  <head>
+    <title>Google Calendar API Quickstart</title>
+    <meta charset='utf-8' />
+  </head>
+  <body>
+    <p>Google Calendar API Quickstart</p>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Systers 30th</title>
-  <meta name="description" content="Come celebrate Systers  30th anniversary while they highlight communities at Grace Hopper Celebration.">
-  <meta name="keywords" content="Systers 30th Grace Hopper Celebration GHC">
+    <!--Add buttons to initiate auth sequence and sign out-->
+    <button id="authorize-button" style="display: none;">Authorize</button>
+    <button id="signout-button" style="display: none;">Sign Out</button>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-  <link rel="stylesheet" href="demo/css/version-systers30th.css" type="text/css">
-  <link rel="stylesheet" href="demo/css/pignose.calendar.css" type="text/css">
-
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="demo/js/moment.latest.min.js"></script>
-    <script type="text/javascript" src="demo/js/pignose.calendar.js"></script>
-    <script src="https://pingendo.com/assets/scripts/navbar-cover.js"></script>
+    <pre id="content"></pre>
 
     <script type="text/javascript">
-        //<![CDATA[
-        $(function () {
-            $('#wrapper .version strong').text('v' + $.fn.pignoseCalendar.ComponentVersion);
-            function onSelectHandler(date, context) {
-				/**
-				 * @date is an array which be included dates(clicked date at first index)
-				 * @context is an object which stored calendar interal data.
-				 * @context.calendar is a root element reference.
-				 * @context.calendar is a calendar element reference.
-				 * @context.storage.activeDates is all toggled data, If you use toggle type calendar.
-				 * @context.storage.events is all events associated to this date
-				 */
-                var $element = context.element;
-                var $calendar = context.calendar;
-                var $box = $element.siblings('.box').show();
-            }
+      // Client ID and API key from the Developer Console
+      var CLIENT_ID = '428477078824-iee0qv6l3maqsgnvoa2v3uqnqn5r8jp1.apps.googleusercontent.com';
 
-            function onApplyHandler(date, context) {
-				/**
-				 * @date is an array which be included dates(clicked date at first index)
-				 * @context is an object which stored calendar interal data.
-				 * @context.calendar is a root element reference.
-				 * @context.calendar is a calendar element reference.
-				 * @context.storage.activeDates is all toggled data, If you use toggle type calendar.
-				 * @context.storage.events is all events associated to this date
-				 */
-                var $element = context.element;
-                var $calendar = context.calendar;
-                var $box = $element.siblings('.box').show();
-            }
+      // Array of API discovery doc URLs for APIs used by the quickstart
+      var DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest"];
 
-            // Default Calendar
-            $('.calendar').pignoseCalendar({
-                select: onSelectHandler
-            });
+      // Authorization scopes required by the API; multiple scopes can be
+      // included, separated by spaces.
+      var SCOPES = "https://www.googleapis.com/auth/calendar.readonly";
 
-            // Calendar modal
-            //var $btn = $('.btn-calendar').pignoseCalendar({
-                //select: onSelectHandler,
-                //apply: onApplyHandler,
-                //modal: true, // It means modal will be showed when you click the target button.
-                //buttons: true
-            //});
+      var authorizeButton = document.getElementById('authorize-button');
+      var signoutButton = document.getElementById('signout-button');
 
-            // Schedule Calendar
-            $('.calendar-schedules').pignoseCalendar({
-                scheduleOptions: {
-                    colors: {
-                        conference: '#55B8E8',
-                        party: '#101020',
-                        meetup: '#FF540D'
-                    }
-                },
-                schedules: [{
-                    name: 'meetup',
-                    title: 'Systers Pre-GHC Meetup, #AtlantaSysters',
-                    date: '2017-09-19',
-                    time: '6:00pm - 9:00pm',
-                    location: '10 10th Street, NE, Atlanta, GA'
-                }, {
-                  name: 'meetup',
-                    title: 'Systers Pre-GHC Meetup, #SFSysters',
-                    date: '2017-09-20',
-                    time: '6:00pm - 9:00pm',
-                    location: '55 Spear St, San Francisco, CA'
-                }, {
-                  name: 'meetup',
-                    title: 'Systers Pre-GHC Meetup, #SeattleSysters',
-                    date: '2017-09-20',
-                    time: '6:00pm - 9:00pm',
-                    location: '777 6th Street South, Building A, Kirkland, WA'
-                }, {
-                  name: 'conference',
-                    title: 'National-scale Committees: The Process and the Workload from a Diverse Perspective',
-                    date: '2017-10-04',
-                    time: '11:30am - 12:30pm',
-                    location: 'Hyatt Plaza International Ballroom G'
-                }, {
-                  name: 'conference',
-                    title: 'Systers Social',
-                    date: '2017-10-04',
-                    time: '11:30am - 12:30pm',
-                    location: 'Hyatt Plaza International Ballroom H'
-                }, {
-                  name: 'conference',
-                    title: 'The Myth of the Unicorn: Perspectives of Native American Women in Computing',
-                    date: '2017-10-04',
-                    time: '1:30pm - 2:30pm',
-                    location: 'Hyatt Plaza International Ballroom G'
-                }, {
-                  name: 'conference',
-                    title: 'Social Celebrating Asian Women in Technical Roles',
-                    date: '2017-10-04',
-                    time: '1:30pm - 2:30pm',
-                    location: 'Hyatt Plaza International Ballroom H'
-                }, {
-                  name: 'conference',
-                    title: 'ABI.Local Communities Lightning Talks: Programming, Engagement and Connecting',
-                    date: '2017-10-04',
-                    time: '3:00pm - 4:00pm',
-                    location: 'Hyatt Plaza International Ballroom G'
-                }, {
-                  name: 'conference',
-                    title: 'Social Celebrating Indian Women in Technical Roles',
-                    date: '2017-10-04',
-                    time: '3:00pm - 4:00pm',
-                    location: 'Hyatt Plaza International Ballroom H'
-                }, {
-                  name: 'conference',
-                    title: 'Systers Celebrates 30 years Supporting Women in Computing',
-                    date: '2017-10-04',
-                    time: '3:00pm - 4:00pm',
-                    location: 'OCCC W320 Chapin Theater'
-                }, {
-                  name: 'conference',
-                    title: '2017 Systers Pass-It-On Award Winners',
-                    date: '2017-10-04',
-                    time: '4:30pm - 5:30pm',
-                    location: 'Hyatt Plaza International Ballroom G'
-                }, {
-                  name: 'conference',
-                    title: 'Social Celebrating Chinese Women in Technical Roles',
-                    date: '2017-10-04',
-                    time: '4:30pm - 5:30pm',
-                    location: 'Hyatt Plaza International Ballroom H'
-                }, {
-                  name: 'conference',
-                    title: 'Bringing Yourself to the Workplace',
-                    date: '2017-10-05',
-                    time: '11:30am - 12:30pm',
-                    location: 'Hyatt Plaza International Ballroom G'
-                }, {
-                  name: 'conference',
-                    title: 'Social Celebrating Women of Color in Technical Roles',
-                    date: '2017-10-05',
-                    time: '11:30am - 12:30pm',
-                    location: 'Hyatt Plaza International Ballroom H'
-                }, {
-                  name: 'conference',
-                    title: 'Speed Mentoring',
-                    date: '2017-10-05',
-                    time: '11:30am - 12:30pm',
-                    location: 'OCCC WF2'
-                }, {
-                  name: 'conference',
-                    title: 'Get Out of Your Own Way!',
-                    date: '2017-10-05',
-                    time: '1:30pm - 2:30pm',
-                    location: 'Hyatt Plaza International Ballroom G'
-                }, {
-                  name: 'conference',
-                    title: 'Social Celebrating Black Women in Technical Roles',
-                    date: '2017-10-05',
-                    time: '1:30pm - 2:30pm',
-                    location: 'Hyatt Plaza International Ballroom H'
-                }, {
-                  name: 'conference',
-                    title: 'Speed Mentoring',
-                    date: '2017-10-05',
-                    time: '1:30pm - 2:30pm',
-                    location: 'OCCC WF2'
-                }, {
-                  name: 'conference',
-                    title: 'How Male Allies Are Supporting Women in Computing at ABI.Local Communities',
-                    date: '2017-10-05',
-                    time: '3:00pm - 4:00pm',
-                    location: 'Hyatt Plaza International Ballroom G'
-                }, {
-                  name: 'conference',
-                    title: 'Social Celebrating Latinas in Technical Roles',
-                    date: '2017-10-05',
-                    time: '3:00pm - 4:00pm',
-                    location: 'Hyatt Plaza International Ballroom H'
-                }, {
-                  name: 'conference',
-                    title: 'Speed Mentoring',
-                    date: '2017-10-05',
-                    time: '3:00pm - 4:00pm',
-                    location: 'OCCC WF2'
-                }, {
-                  name: 'conference',
-                    title: 'Social Celebrating International Women in Technical Roles',
-                    date: '2017-10-05',
-                    time: '4:30pm - 5:30pm',
-                    location: 'Hyatt Plaza International Ballroom H'
-                }, {
-                  name: 'conference',
-                    title: 'Shining Your Uniqueness in the First Five Years of Your Career',
-                    date: '2017-10-06',
-                    time: '9:00am - 10:00am',
-                    location: 'Hyatt Plaza International Ballroom G'
-                }, {
-                  name: 'conference',
-                    title: 'Social Celebrating ABI.Local Communities',
-                    date: '2017-10-06',
-                    time: '9:00am - 10:00am',
-                    location: 'Hyatt Plaza International Ballroom H'
-                }, {
-                  name: 'conference',
-                    title: 'Social Celebrating Arab Women in Technical Roles',
-                    date: '2017-10-06',
-                    time: '10:30am - 11:30am',
-                    location: 'Hyatt Plaza International Ballroom H'
-                }, {
-                  name: 'conference',
-                    title: 'Wonder Woman and the Amazonians: Build Your ABI.Local Community Tribe',
-                    date: '2017-10-06',
-                    time: '12:00pm - 1:00pm',
-                    location: 'Hyatt Plaza International Ballroom G'
-                }, {
-                  name: 'conference',
-                    title: 'Social Celebrating LGBTQ-A in Technical Roles',
-                    date: '2017-10-06',
-                    time: '12:00pm - 1:00pm',
-                    location: 'Hyatt Plaza International Ballroom H'
-                }, {
-                  name: 'conference',
-                    title: 'Social Celebrating Iranian Women in Technical Roles',
-                    date: '2017-10-06',
-                    time: '1:30pm - 2:30pm',
-                    location: 'Hyatt Plaza International Ballroom H'
-                }, {
-                  name: 'party',
-                    title: 'ABI.SV Grace Hopper Celebration Viewing Party',
-                    date: '2017-10-06',
-                    time: '11:00am - 3:00pm',
-                    location: 'TBA'
-                }, {
-                  name: 'party',
-                    title: 'ABI.Chicago GHC Viewing Party',
-                    date: '2017-10-10',
-                    time: '6:00pm - 8:30pm',
-                    location: '22 W. Washington St., 7th Fl., Chicago, IL'
-                }, {
-                  name: 'party',
-                    title: 'ABI.Seattle Presents: GHC 2017 Viewing Party',
-                    date: '2017-10-12',
-                    time: '12:30pm - 7:00pm',
-                    location: '2031 7th Avenue, Seattle, WA'
-                }, {
-                  name: 'party',
-                    title: 'Grace Hopper Celebration 2017 Viewing Party – ABI Austin',
-                    date: '2017-10-12',
-                    time: '7:00pm - 9:00pm',
-                    location: 'TBA'
-                }, {
-                  name: 'party',
-                    title: 'ABI.MSP Presents: GHC 2017 Viewing Party',
-                    date: '2017-10-16',
-                    time: '6:00pm - 8:30pm',
-                    location: 'Target Commons, 1001 Nicollet Mall, Minneapolis, MN 55403'
-                }, {
-                  name: 'party',
-                    title: 'SAVE THE DATE: GHC Viewing Party — Jet Propulsion Laboratory (JPL)',
-                    date: '2017-10-18',
-                    time: '5:00pm - 9:00pm',
-                    location: '4800 Oak Grove Dr, Pasadena, CA'
-                }],
-                select: function (date, context) {
-                    var message = `<br /><br />
-                               You selected ${(date[0] === null ? 'null' : date[0].format('YYYY-MM-DD'))}.
-							   <br />
-							   <br />
-							   <strong>Events for this Date:</strong>
-							   <br />
-							   <br />
-							   <table class="table">
-                               <thead><tr>
-                               <th>Time</th>
-                               <th>Type</th>
-                               <th>Title</th>    
-                               <th>Location</th>
-                               </tr></thead>
-                               </div>`;
+      /**
+       *  On load, called to load the auth2 library and API client library.
+       */
+      function handleClientLoad() {
+        gapi.load('client:auth2', initClient);
+      }
 
-                    var $target = context.calendar.parent().next().show().html(message);
+      /**
+       *  Initializes the API client library and sets up sign-in state
+       *  listeners.
+       */
+      function initClient() {
+        gapi.client.init({
+          discoveryDocs: DISCOVERY_DOCS,
+          clientId: CLIENT_ID,
+          scope: SCOPES
+        }).then(function () {
+          // Listen for sign-in state changes.
+          gapi.auth2.getAuthInstance().isSignedIn.listen(updateSigninStatus);
 
-                    for (var idx in context.storage.schedules) {
-                        var schedule = context.storage.schedules[idx];
-                        if (typeof schedule !== 'object') {
-                            continue;
-                        }
-                        $target.find('.table').append(
-                            '<tr>' + '</tr>' +
-                            '<td>' + schedule.time + '</td>' +
-                            '<td>' + schedule.name + '</td>' +
-                            '<td>' + schedule.title + '</td>' +
-                            '<td>'+ schedule.location + '</td>');
-                    }
-                }
-            });
-
-
-            // This use for DEMO page tab component.
-            $('.menu .item').tab();
+          // Handle the initial sign-in state.
+          updateSigninStatus(gapi.auth2.getAuthInstance().isSignedIn.get());
+          authorizeButton.onclick = handleAuthClick;
+          signoutButton.onclick = handleSignoutClick;
         });
-	//]]>
+      }
+
+      /**
+       *  Called when the signed in status changes, to update the UI
+       *  appropriately. After a sign-in, the API is called.
+       */
+      function updateSigninStatus(isSignedIn) {
+        if (isSignedIn) {
+          authorizeButton.style.display = 'none';
+          signoutButton.style.display = 'block';
+          listUpcomingEvents();
+        } else {
+          authorizeButton.style.display = 'block';
+          signoutButton.style.display = 'none';
+        }
+      }
+
+      /**
+       *  Sign in the user upon button click.
+       */
+      function handleAuthClick(event) {
+        gapi.auth2.getAuthInstance().signIn();
+      }
+
+      /**
+       *  Sign out the user upon button click.
+       */
+      function handleSignoutClick(event) {
+        gapi.auth2.getAuthInstance().signOut();
+      }
+
+      /**
+       * Append a pre element to the body containing the given message
+       * as its text node. Used to display the results of the API call.
+       *
+       * @param {string} message Text to be placed in pre element.
+       */
+      function appendPre(message) {
+        var pre = document.getElementById('content');
+        var textContent = document.createTextNode(message + '\n');
+        pre.appendChild(textContent);
+      }
+
+      /**
+       * Print the summary and start datetime/date of the next ten events in
+       * the authorized user's calendar. If no events are found an
+       * appropriate message is printed.
+       */
+      function listUpcomingEvents() {
+        gapi.client.calendar.events.list({
+          'calendarId': 'primary',
+          'timeMin': (new Date()).toISOString(),
+          'showDeleted': false,
+          'singleEvents': true,
+          'maxResults': 10,
+          'orderBy': 'startTime'
+        }).then(function(response) {
+          var events = response.result.items;
+          appendPre('Upcoming events:');
+
+          if (events.length > 0) {
+            for (i = 0; i < events.length; i++) {
+              var event = events[i];
+              var when = event.start.dateTime;
+              if (!when) {
+                when = event.start.date;
+              }
+              appendPre(event.summary + ' (' + when + ')')
+            }
+          } else {
+            appendPre('No upcoming events found.');
+          }
+        });
+      }
+
     </script>
-</head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-<body class="text-center">
-  <nav class="navbar navbar-expand-md fixed-top bg-primary navbar-light text-uppercase">
-    <div class="container">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-      <div class="collapse navbar-collapse justify-content-center" id="navbar2SupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#schedule">Schedule</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-
-<div class="d-flex align-items-center text-left h-75 bg-opaque mask mask-faded-out text-white" id="cover" style="background-image: url(&quot;demo/img/systers-io.jpg&quot;);">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <h1 class="display-2">Celebrate Systers 30th!</h1>
-          <h5>October 04-06, Orlando, Florida</h5>
-          <a href="http://systers.org/mailman/listinfo/systers" target="blank" class="btn btn-lg mt-4 btn-primary">Join Systers</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="py-5" id="schedule">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h1 class="mb-4">Schedule</h1>
-        </div>
-      </div>
-
-            <div id="schedules" class="article">
-                <div class="calendar-schedules"></div>
-
-                    <div class="col-md-12">
-                    </div>
-            </div>
-
-
-    </div>
-    </div>
-
-
-  <footer class="text-left bg-dark py-4 border border-primary" id="footer">
-    <div class="container">
-      <div class="row">
-        <div class="my-3 col-lg-4 col-md-6">
-          <h3 class="pi-item">Systers 30th Celebration</h3>
-          <p>October - December, 2017</p>
-          <p class="my-3">
-            <a href="https://www.google.com/maps" target="blank" class="text-gray-dark">9800 International Dr,&nbsp;
-              <br>Orlando, FL 32819</a>
-          </p>
-          <a class="btn btn-info btn-lg" href="http://systers.org/mailman/listinfo/systers" target="blank">Join Systers!</a>
-        </div>
-        <div class="my-3 col-lg-4 col-md-6">
-          <h3 class="pi-item">Question? Ask here!</h3>
-          <form>
-            <fieldset class="form-group my-3">
-              <input type="email" class="form-control" id="Input Email" placeholder="Email"> </fieldset>
-            <fieldset class="form-group my-3">
-              <input type="message" class="form-control" id="Input Message" placeholder="Message"> </fieldset>
-            <button type="submit" class="btn btn-outline-info">Submit</button>
-          </form>
-        </div>
-        <div class="my-3 col-lg-4 col-md-12">
-          <h3 class="pi-item">Follow</h3>
-          <a href="https://www.facebook.com/groups/abi.systers/" target="blank"><i class="fa fa-3x fa-facebook-square m-3 text-muted"></i></a>
-          <a href="https://www.instagram.com/anitaborginstitute/?hl=en" target="blank"><i class="fa fa-3x fa-instagram m-3 text-muted"></i></a>
-          <a href="https://twitter.com/systers_org" target="blank"><i class="fa fa-3x fa-twitter m-3 text-muted"></i></a>
-          <a href="https://plus.google.com/u/3/+InSysterhood-GlobalSysters" target="blank"><i class="fa fa-3x fa-google-plus-official m-3 text-muted"></i></a>
-          <a href="https://www.youtube.com/channel/UCUvti1DEKYUZBtQqQAtCK6g" target="blank"><i class="fa fa-3x m-3 text-muted fa-youtube-play"></i></a>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12 mt-3 text-center">
-          <p class="text-muted">© Copyright 2017 Systers</p>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-  <script src="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.min.js"></script>
-  <script src="https://pingendo.com/assets/scripts/smooth-scroll.js"></script>
-  <script src="https://pingendo.com/assets/scripts/slidein-images.js"></script>
-
-</body>
-
+    <script async defer src="https://apis.google.com/js/api.js"
+      onload="this.onload=function(){};handleClientLoad()"
+      onreadystatechange="if (this.readyState === 'complete') this.onload()">
+    </script>
+  </body>
 </html>
