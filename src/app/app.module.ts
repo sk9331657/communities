@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
@@ -32,6 +32,6 @@ import { CommunitiesComponent } from './communities/communities.component';
   providers: [],
   bootstrap: [AppComponent],
   exports :[ RouterModule ],
-  schemas: [ NO_ERRORS_SCHEMA ]
+  schemas:[ CUSTOM_ELEMENTS_SCHEMA ]
 })
 export class AppModule { }
