@@ -1,0 +1,43 @@
+.contact-banner{
+	height: 70%;
+	width: 100%;
+}
+.brand-c{
+	background-color : #54BCEB;
+	margin : 8px;
+	margin-top : 18px;
+	align:center;
+}
+
+.card{
+	margin: 30px;
+	
+}
+
+center{
+	color : rgb(141,33,101);
+	margin :20px;
+}
+
+.info{
+	margin-left :20px;
+	margin-right :20px;
+}
+.social{
+	align-items: center;
+}
+@media only screen and (max-width: 600px) {
+    .info{
+    	margin-right : 5px;
+    	margin-left :5px;
+    	font-size : 12px;
+    }
+    .data{
+		font-size : 12px;
+	}
+	.fa{
+		height:4px;
+	}
+	
+
+}

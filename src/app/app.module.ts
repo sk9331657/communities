@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
@@ -11,7 +11,7 @@ import { EventsComponent } from './events/events.component';
 import { RouterModule, Routes } from '@angular/router';
 import { AppRoutingModule } from './/app-routing.module';
 import { CommunitiesComponent } from './communities/communities.component';
-
+import { FormsModule }   from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,12 +26,13 @@ import { CommunitiesComponent } from './communities/communities.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
     MDBBootstrapModule.forRoot(),
     
   ],
   providers: [],
   bootstrap: [AppComponent],
   exports :[ RouterModule ],
-  schemas:[ CUSTOM_ELEMENTS_SCHEMA ]
+  schemas:[ NO_ERRORS_SCHEMA ]
 })
 export class AppModule { }
