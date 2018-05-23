@@ -10,7 +10,7 @@ import { EventsComponent } from './events/events.component';
 import { CommunitiesComponent } from './communities/communities.component';
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent},
+  { path: '', component: HomeComponent},
   { path: 'contact', component: ContactComponent },
   { path: 'calendar', component: CalendarComponent },
   { path: 'events', component: EventsComponent },
