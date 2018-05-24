@@ -1,3 +1,54 @@
-<p>
-  communities works!
-</p>
+
+<div class="fixed-sn">
+ 
+    <mdb-carousel [isControls]="true" [animation]="'slide'" [interval]="myInterval" [noWrap]="noWrapSlides" [(activeSlide)]="activeSlideIndex" (activeSlideChange)="activeSlideChange()">
+      <mdb-slide *ngFor="let slide of slides; let index=index">
+        <img [src]="slide.image" class="d-block w-100">
+        <div class="carousel-caption">
+          <h4>Slide {{index}}</h4>
+          <p>{{slide.text}}</p>
+        </div>
+      </mdb-slide>
+    </mdb-carousel>
+ 
+</div>
+
+<center><h2>Systers Affinity Groups</h2></center>
+<div class="row">
+  <div class="col-sm-4" *ngFor="let det of details">
+  <div class="card ">
+      <!--Card image-->
+      <img class="img-fluid" src="../assets/img/women1.jpg" alt="Card image cap">
+          <h5 class="card-title">{{det.title}}</h5>
+          <!--Text-->
+          <button type="button" class="btn btn-primary waves-light" (click)="style.show()" mdbWavesEffect>Central Modal</button>
+  </div>
+              
+
+  <div mdbModal #style="mdb-modal" class="modal fade" id="centralModalSuccess" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-notify modal-success" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <p class="heading lead">Modal Success</p>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="style.hide()">
+                      <span aria-hidden="true" class="white-text">×</span>
+                  </button>
+              </div>
+              <div class="modal-body">
+                  <div class="text-center">
+                      <i class="fa fa-check fa-4x mb-3 animated rotateIn"></i>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit iusto nulla aperiam blanditiis ad consequatur in dolores culpa, dignissimos, eius non possimus fugiat. Esse ratione 
+                          fuga, enim, ab officiis totam.</p>
+                  </div>
+              </div>
+              <div class="modal-footer justify-content-center">
+                  <a type="button" class="btn btn-primary waves-light" mdbWavesEffect>Get it now <i class="fa fa-diamond ml-1"></i></a>
+                  <a type="button" class="btn btn-outline-secondary" data-dismiss="modal" (click)="style.hide()" mdbWavesEffect>No, thanks</a>
+              </div>
+          </div>
+      </div>
+  </div>
+
+                               
+  </div>
+</div>
