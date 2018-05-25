@@ -15,16 +15,15 @@
 
 <center><h2>Systers Affinity Groups</h2></center>
 <div class="row">
-  <div class="col-sm-4" *ngFor="let det of details">
-  <div class="card ">
-      <!--Card image-->
-      <img class="img-fluid" src="../assets/img/women1.jpg" alt="Card image cap">
-          <h5 class="card-title">{{det.title}}</h5>
-          <!--Text-->
-          <button type="button" class="btn btn-primary waves-light" (click)="style.show()" mdbWavesEffect>Central Modal</button>
-  </div>
+  <div class="col-sm-4" *ngFor="let det of details ; let index=index">
+    <div *ngIf="index%2==0; else elseAgeBlock">
+     <button type="button" class="btn btn-rounded waves-light brand-c" (click)="style.show()" mdbWavesEffect style="background-color: #54BCEB;">{{det.title }}</button>
+    </div>   
+    <ng-template #elseAgeBlock>
+       <button type="button" class="btn btn-rounded waves-light brand-c" (click)="style.show()" mdbWavesEffect style="background-color: #8d2165;">{{det.title }}</button>
+    </ng-template> 
+         
               
-
   <div mdbModal #style="mdb-modal" class="modal fade" id="centralModalSuccess" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-notify modal-success" role="document">
           <div class="modal-content">
@@ -37,18 +36,16 @@
               <div class="modal-body">
                   <div class="text-center">
                       <i class="fa fa-check fa-4x mb-3 animated rotateIn"></i>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit iusto nulla aperiam blanditiis ad consequatur in dolores culpa, dignissimos, eius non possimus fugiat. Esse ratione 
-                          fuga, enim, ab officiis totam.</p>
+                      <p>{{ det.desc }}</p>
                   </div>
               </div>
               <div class="modal-footer justify-content-center">
-                  <a type="button" class="btn btn-primary waves-light" mdbWavesEffect>Get it now <i class="fa fa-diamond ml-1"></i></a>
-                  <a type="button" class="btn btn-outline-secondary" data-dismiss="modal" (click)="style.hide()" mdbWavesEffect>No, thanks</a>
+                  <a type="button" href="{{ det.mailing }}" class="btn btn-primary waves-light" target="_blank" mdbWavesEffect>Mailing List <i class="fa fa-mail ml-1"></i></a>
+                  
               </div>
           </div>
       </div>
   </div>
 
-                               
-  </div>
+</div>
 </div>
