@@ -3,6 +3,7 @@ import { startOfDay, endOfDay, subDays, addDays, endOfMonth, isSameDay, isSameMo
 import { Subject } from 'rxjs/Subject';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { CalendarEvent } from 'angular-calendar';
+import word from '../caldata';
 const colors: any = {
   red: {
     primary: '#ad2121',
@@ -31,34 +32,7 @@ export class CalendarComponent implements OnInit {
 
   refresh: Subject<any> = new Subject();
 
-  events: CalendarEvent[] = [
-    {
-      start: subDays(startOfDay(new Date()), 1),
-      end: addDays(new Date(), 1),
-      title: 'A 3 day event',
-      color: colors.red
-    
-    },
-    {
-      start: startOfDay(new Date()),
-      title: 'An event with no end date',
-      color: colors.yellow
-    },
-    {
-      start: subDays(endOfMonth(new Date()), 3),
-      end: addDays(endOfMonth(new Date()), 3),
-      title: 'A long event that spans 2 months',
-      color: colors.blue
-    },
-    {
-      start: addHours(startOfDay(new Date()), 2),
-      end: new Date(),
-      title: 'A draggable and resizable event',
-      color: colors.yellow
-      
-    }
-  ];
-
+  events: CalendarEvent[] = word;
   activeDayIsOpen: boolean = true;
 
   constructor(private modal: NgbModal) {}
