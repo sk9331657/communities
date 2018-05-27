@@ -4,6 +4,7 @@ import { Subject } from 'rxjs/Subject';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { CalendarEvent } from 'angular-calendar';
 import word from '../caldata';
+
 const colors: any = {
   red: {
     primary: '#ad2121',
@@ -18,21 +19,36 @@ const colors: any = {
     secondary: '#FDF1BA'
   }
 };
+interface res {
+    start: string;
+    end: string;
+    title: string;
+}
+let arr = [];
+for (var _i = 0; _i < 20; _i++) {
+    var num = word[_i];
+    arr.push({
+    	start:new Date(num.start),
+    	end:new Date(num.end),
+    	title:num.title
+    });
+}
+console.log(arr);
 @Component({
   selector: 'app-calendar',
   templateUrl: './calendar.component.html',
   styleUrls: ['./calendar.component.scss']
 })
+
 export class CalendarComponent implements OnInit {
   @ViewChild('modalContent') modalContent: TemplateRef<any>;
 
   view: string = 'month';
-
+    
   viewDate: Date = new Date();
 
   refresh: Subject<any> = new Subject();
-
-  events: CalendarEvent[] = word;
+  events: CalendarEvent[] = arr;
   activeDayIsOpen: boolean = true;
 
   constructor(private modal: NgbModal) {}
