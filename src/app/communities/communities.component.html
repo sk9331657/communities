@@ -12,40 +12,89 @@
     </mdb-carousel>
  
 </div>
+<div class = "container">
+<ngb-tabset (tabChange)="beforeChange($event)" [justify]="currentJustify" >
 
-<center><h2>Systers Affinity Groups</h2></center>
-<div class="row">
-  <div class="col-sm-4" *ngFor="let det of details ; let index=index">
-    <div *ngIf="index%2==0; else elseAgeBlock">
-     <button type="button" class="btn btn-rounded waves-light brand-c" (click)="style.show()" mdbWavesEffect style="background-color: #54BCEB;">{{det.title }}</button>
-    </div>   
-    <ng-template #elseAgeBlock>
-       <button type="button" class="btn btn-rounded waves-light brand-c" (click)="style.show()" mdbWavesEffect style="background-color: #8d2165;">{{det.title }}</button>
-    </ng-template> 
-         
-              
-  <div mdbModal #style="mdb-modal" class="modal fade" id="centralModalSuccess" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-notify modal-success" role="document">
-          <div class="modal-content">
-              <div class="modal-header" style="background-color: #8d2165;">
-                  <p class="heading lead" style="background-color: #8d2165 ">{{ det.title }}</p>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="style.hide()">
-                      <span aria-hidden="true" class="white-text">×</span>
-                  </button>
-              </div>
-              <div class="modal-body">
-                  <div class="text-center">
-                      <i class="fa fa-check fa-4x mb-3 animated rotateIn" style="color: #8d2165;"></i>
-                      <p>{{ det.desc }}</p>
-                  </div>
-              </div>
-              <div class="modal-footer justify-content-center">
-                  <a type="button" href="{{ det.mailing }}" class="btn btn-primary waves-light" target="_blank" mdbWavesEffect style="background-color: #54BCEB;">Mailing List <i class="fa fa-mail ml-1"></i></a>
-                  
-              </div>
-          </div>
+  <ngb-tab id="tab-preventchange1" title="Systers Affinity Groups">
+    <ng-template ngbTabContent>
+        <center><h2>Systers Affinity Groups</h2></center>
+        <div class="row">
+        <div class="col-sm-4" *ngFor="let det of details ; let index=index ;">
+            <div *ngIf= "index%2==0 ; else elseAgeBlock ">
+               <button type="button" class="btn btn-rounded waves-light brand-c" (click)="style.show()" mdbWavesEffect style="background-color: #54BCEB;">{{det.title }}</button>
+            </div>   
+            <ng-template #elseAgeBlock>
+                <button type="button" class="btn btn-rounded waves-light brand-c" (click)="style.show()" mdbWavesEffect style="background-color: #8d2165;">{{det.title }}</button>
+            </ng-template> 
+       
+        <div mdbModal #style="mdb-modal" class="modal fade" id="centralModalSuccess" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-notify modal-success" role="document">
+                <div class="modal-content">
+                    <div class="modal-header" style="background-color: #8d2165;">
+                        <p class="heading lead" style="background-color: #8d2165 ">{{ det.title }}</p>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="style.hide()">
+                            <span aria-hidden="true" class="white-text">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="text-center">
+                            <i class="fa fa-check fa-4x mb-3 animated rotateIn" style="color: #8d2165;"></i>
+                            <p>{{ det.desc }}</p>
+                        </div>
+                    </div>
+                    <div class="modal-footer justify-content-center">
+                        <a type="button" href="{{ det.mailing }}" class="btn btn-primary waves-light" target="_blank" mdbWavesEffect style="background-color: #54BCEB;">Mailing List <i class="fa fa-mail ml-1"></i></a>              
+                    </div>
+                </div>
+            </div>
+        </div>
       </div>
-  </div>
+      </div>
+    </ng-template>
+  </ngb-tab>
 
-</div>
+  <ngb-tab id="tab-preventchange2" title="Systers Special Interest Groups">
+    <ng-template ngbTabContent>
+    <center><h2>Systers Special Interest Groups</h2></center>
+    <div class="row">
+        <div class="col-sm-4" *ngFor="let det of details_sig ; let index=index ;">
+        <div class="card">
+            <img class="sig-img" src="../assets/img/women1.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">{{det.title}}</h4>
+                <p class="card-text">{{det.desc}}</p>
+            </div>
+       
+        <div class="modal-footer justify-content-center">
+            <a type="button" href="{{ det.mailing }}" class="btn btn-primary waves-light" target="_blank" mdbWavesEffect style="background-color: #54BCEB;">Mailing List <i class="fa fa-mail ml-1"></i></a>              
+        </div>
+         </div>
+        </div>
+    </div>
+            
+    </ng-template>
+  </ngb-tab>
+  <ngb-tab title="But I can!" >
+    <ng-template ngbTabContent>
+    
+        <center><h2>Systers Special Interest Groups</h2></center>
+        <div class="row">
+            <div class="col-sm-4" *ngFor="let det of detail_mail ; let index=index ;">
+            <div class="card">
+                <img class="sig-img" src="../assets/img/women1.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">{{det.title}}</h4>
+                    <p class="card-text">{{det.desc}}</p>
+                </div>
+            <div class="modal-footer justify-content-center">
+            <a type="button" href="{{ det.mailing }}" class="btn btn-primary waves-light" target="_blank" mdbWavesEffect style="background-color: #54BCEB;">Mailing List <i class="fa fa-mail ml-1"></i></a>             
+            </div>
+            </div>
+
+            </div>
+        </div>
+     
+    </ng-template>
+  </ngb-tab>
+</ngb-tabset>
 </div>
