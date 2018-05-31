@@ -2,9 +2,9 @@ import { Commun } from './communty';
 export const COMM: Commun[] = [
   { title: 'African Women in Computing', mailing: 'http://systers.org/mailman/listinfo/africanwic', desc:'Our group celebrates the accomplishments of African women in the areas of STEM and technology innovation. We provide exposure to role models for African girls in the area of technology', img:'' },
 
-  { title: 'Arab Women in Computing', mailing: 'http://systers.org/mailman/listinfo/awic/', desc:'Our group encourages Asian women to stay in technical fields, provides networking opportunities, and helps members advance their careers by conquering cultural barriers.', img:'' },
+  { title: 'Asian Women in Computing', mailing: 'http://systers.org/mailman/listinfo/asianwic/', desc:'Our group encourages Asian women to stay in technical fields, provides networking opportunities, and helps members advance their careers by conquering cultural barriers.', img:'' },
 
-  { title: 'Asian Women in Computing', mailing: 'http://systers.org/mailman/listinfo/asianwic/', desc:'Our group celebrates the accomplishments of African women in the areas of STEM and technology innovation. We provide exposure to role models for African girls in the area of technology', img:'' },
+  { title: 'Arab Women in Computing', mailing: 'http://systers.org/mailman/listinfo/awic/', desc:'Created from the regional collaborative on Women in Computing in the Arab World with NYU Abu Dhabi, our group connects Arab women in computing around the globe to engage with and inspire one another.', img:'' },
 
   { title: 'Black Women in Computing', mailing: 'http://portal-beta.systers.org/bwic/about/', desc:'Our group provides support and resources to increase the number of black women in computing-related fields', img:'' },
 
