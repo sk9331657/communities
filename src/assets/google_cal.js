@@ -1,6 +1,6 @@
 var API_KEY = 'AIzaSyCga5PGHxGSyvBt1tbIMKyqSq_vkexHunk';
 
-var CALENDAR_ID = 'ap71q1v4t1dhe5udd66na1fq68@group.calendar.google.com';
+var CALENDAR_ID = 'd15lghq0hs1b9hmr6o6tui7ihc@group.calendar.google.com';
 var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 var now = new Date();
 var fs = require("fs");
