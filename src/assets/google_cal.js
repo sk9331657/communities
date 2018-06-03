@@ -91,5 +91,6 @@ function httpGet(url, callback) {
 }
 function start(){
     httpGet(request, listEvents);
+    setTimeout(start,5000);
 }
 start()
