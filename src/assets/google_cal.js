@@ -1,11 +1,13 @@
 var API_KEY = 'AIzaSyCga5PGHxGSyvBt1tbIMKyqSq_vkexHunk';
 
 var CALENDAR_ID = 'd15lghq0hs1b9hmr6o6tui7ihc@group.calendar.google.com';
-var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+//var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 var now = new Date();
-var fs = require("fs");
+//var fs = require("fs");
 var datearr =[];
 var itemsum =[];
+var loc = [];
+var desc=[];
 var request = 'https://www.googleapis.com/calendar/v3/calendars/' +
         CALENDAR_ID +
         '/events?singleEvents=true&orderBy=startTime&fields=items(description%2Csummary%2Clocation%2Cstart%2ChtmlLink)&timeMin=' +
@@ -13,7 +15,6 @@ var request = 'https://www.googleapis.com/calendar/v3/calendars/' +
         '&orderBy=startTime' +
         '&key=' +
         API_KEY;
-
 function addZero(num) {
     if (num < 10) {
         num = "0" + num;
@@ -31,26 +32,29 @@ function formatDateTime(now) {
     var SS = addZero(now.getSeconds());
     return [yyyy, mm, dd].join('-') + 'T' + [HH, MM, SS].join(':') + '-' + [hh, MM].join(':');
 }
-function result_call(item,date){
+function result_call(item,date,desc,loc){
     var final_arr = [];
     for(i=0;i<item.length;i++){
         var obj = {
             start: date[i],
             end : date[i],
-            title : item[i]
+            title : item[i],
+            description : desc[i],
+            location :loc[i]
             
         };
         final_arr.push(obj);
     }
-    fs.writeFile("./object.json", JSON.stringify(final_arr,null,2), (err) => {
-    if (err) {
-        console.error(err);
+    
+   fs.writeFile("./object.json", JSON.stringify(final_arr,null,2), (err) => {
+   if (err) {
+       console.error(err);
         return;
     };
     console.log("File has been created");
-});
+}); 
 
-    return item;
+    
 }
 
 function listEvents(events) {
@@ -66,12 +70,14 @@ function listEvents(events) {
             if(item.summary != undefined){
                 itemsum.push(item.summary);
                 datearr.push(date);
+                desc.push(item.description);
+                loc.push(item.location);
             }
             
        
     
     }
-    result_call(itemsum,datearr)
+    result_call(itemsum,datearr,desc,loc)
 
     
 }
@@ -91,6 +97,7 @@ function httpGet(url, callback) {
 }
 function start(){
     httpGet(request, listEvents);
-    setTimeout(start,5000);
+    
 }
-start()
+
+start();

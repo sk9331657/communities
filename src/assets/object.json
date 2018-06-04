@@ -1,62 +1,707 @@
 [
   {
-    "start": "2018-06-03",
-    "end": "2018-06-03",
-    "title": "ssssss"
+    "start": "2018-06-05",
+    "end": "2018-06-05",
+    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)",
+    "description": "<b>Agenda:</b><br><ul><li>Check-in on Work Items&nbsp;<ul><li>How much time are you spending on these PRs?</li></ul></li></ul><br><br><br><b>Meeting Details:</b><br>Join Google Hangouts."
   },
   {
-    "start": "2018-06-06",
-    "end": "2018-06-06",
-    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)"
+    "start": "2018-06-08",
+    "end": "2018-06-08",
+    "title": "Janice - Office Hours",
+    "location": "https://hangouts.google.com/call/QhNArHKm8f-53vMck3lxAAEE"
   },
   {
-    "start": "2018-06-13",
-    "end": "2018-06-13",
-    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)"
+    "start": "2018-06-08",
+    "end": "2018-06-08",
+    "title": "Dinuka - Office hours ",
+    "location": "https://hangouts.google.com/call/fUDqmLVWR_yVzmFr3tQMAAEM"
   },
   {
-    "start": "2018-06-20",
-    "end": "2018-06-20",
-    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)"
+    "start": "2018-06-08",
+    "end": "2018-06-08",
+    "title": "May - Office Hours",
+    "description": "Scheduled time outside of regular open source meetings to meet with members.",
+    "location": "https://zoom.us/j/5611124977"
   },
   {
-    "start": "2018-06-27",
-    "end": "2018-06-27",
-    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)"
+    "start": "2018-06-09",
+    "end": "2018-06-09",
+    "title": "Janice Vacation - Limited Availability"
   },
   {
-    "start": "2018-07-04",
-    "end": "2018-07-04",
-    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)"
+    "start": "2018-06-10",
+    "end": "2018-06-10",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
   },
   {
-    "start": "2018-07-11",
-    "end": "2018-07-11",
-    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)"
+    "start": "2018-06-12",
+    "end": "2018-06-12",
+    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)",
+    "description": "<b>Agenda:</b><br><ul><li>TBD</li></ul><br><br><br><b>Meeting Details:</b><br>Join Google Hangouts."
   },
   {
-    "start": "2018-07-18",
-    "end": "2018-07-18",
-    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)"
+    "start": "2018-06-15",
+    "end": "2018-06-15",
+    "title": "Dinuka - Office hours ",
+    "location": "https://hangouts.google.com/call/fUDqmLVWR_yVzmFr3tQMAAEM"
   },
   {
-    "start": "2018-07-25",
-    "end": "2018-07-25",
-    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)"
+    "start": "2018-06-15",
+    "end": "2018-06-15",
+    "title": "May - Office Hours",
+    "description": "Scheduled time outside of regular open source meetings to meet with members.",
+    "location": "https://zoom.us/j/5611124977"
   },
   {
-    "start": "2018-08-01",
-    "end": "2018-08-01",
-    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)"
+    "start": "2018-06-17",
+    "end": "2018-06-17",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
   },
   {
-    "start": "2018-08-08",
-    "end": "2018-08-08",
-    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)"
+    "start": "2018-06-19",
+    "end": "2018-06-19",
+    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)",
+    "description": "<b>Agenda:</b><br><ul><li>TBD</li></ul><br><br><br><b>Meeting Details:</b><br>Join Google Hangouts."
   },
   {
-    "start": "2018-08-15",
-    "end": "2018-08-15",
-    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)"
+    "start": "2018-06-22",
+    "end": "2018-06-22",
+    "title": "Dinuka - Office hours ",
+    "location": "https://hangouts.google.com/call/fUDqmLVWR_yVzmFr3tQMAAEM"
+  },
+  {
+    "start": "2018-06-22",
+    "end": "2018-06-22",
+    "title": "May - Office Hours",
+    "description": "Scheduled time outside of regular open source meetings to meet with members.",
+    "location": "https://zoom.us/j/5611124977"
+  },
+  {
+    "start": "2018-06-24",
+    "end": "2018-06-24",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2018-06-26",
+    "end": "2018-06-26",
+    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)",
+    "description": "<b>Agenda:</b><br><ul><li>TBD</li></ul><br><br><br><b>Meeting Details:</b><br>Join Google Hangouts."
+  },
+  {
+    "start": "2018-06-29",
+    "end": "2018-06-29",
+    "title": "Dinuka - Office hours ",
+    "location": "https://hangouts.google.com/call/fUDqmLVWR_yVzmFr3tQMAAEM"
+  },
+  {
+    "start": "2018-06-29",
+    "end": "2018-06-29",
+    "title": "May - Office Hours",
+    "description": "Scheduled time outside of regular open source meetings to meet with members.",
+    "location": "https://zoom.us/j/5611124977"
+  },
+  {
+    "start": "2018-07-01",
+    "end": "2018-07-01",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2018-07-03",
+    "end": "2018-07-03",
+    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)",
+    "description": "<b>Agenda:</b><br><ul><li>TBD</li></ul><br><br><br><b>Meeting Details:</b><br>Join Google Hangouts."
+  },
+  {
+    "start": "2018-07-06",
+    "end": "2018-07-06",
+    "title": "Dinuka - Office hours ",
+    "location": "https://hangouts.google.com/call/fUDqmLVWR_yVzmFr3tQMAAEM"
+  },
+  {
+    "start": "2018-07-06",
+    "end": "2018-07-06",
+    "title": "May - Office Hours",
+    "description": "Scheduled time outside of regular open source meetings to meet with members.",
+    "location": "https://zoom.us/j/5611124977"
+  },
+  {
+    "start": "2018-07-08",
+    "end": "2018-07-08",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2018-07-10",
+    "end": "2018-07-10",
+    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)",
+    "description": "<b>Agenda:</b><br><ul><li>TBD</li></ul><br><br><br><b>Meeting Details:</b><br>Join Google Hangouts."
+  },
+  {
+    "start": "2018-07-13",
+    "end": "2018-07-13",
+    "title": "Dinuka - Office hours ",
+    "location": "https://hangouts.google.com/call/fUDqmLVWR_yVzmFr3tQMAAEM"
+  },
+  {
+    "start": "2018-07-13",
+    "end": "2018-07-13",
+    "title": "May - Office Hours",
+    "description": "Scheduled time outside of regular open source meetings to meet with members.",
+    "location": "https://zoom.us/j/5611124977"
+  },
+  {
+    "start": "2018-07-15",
+    "end": "2018-07-15",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2018-07-17",
+    "end": "2018-07-17",
+    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)",
+    "description": "<b>Agenda:</b><br><ul><li>TBD</li></ul><br><br><br><b>Meeting Details:</b><br>Join Google Hangouts."
+  },
+  {
+    "start": "2018-07-20",
+    "end": "2018-07-20",
+    "title": "Dinuka - Office hours ",
+    "location": "https://hangouts.google.com/call/fUDqmLVWR_yVzmFr3tQMAAEM"
+  },
+  {
+    "start": "2018-07-20",
+    "end": "2018-07-20",
+    "title": "May - Office Hours",
+    "description": "Scheduled time outside of regular open source meetings to meet with members.",
+    "location": "https://zoom.us/j/5611124977"
+  },
+  {
+    "start": "2018-07-21",
+    "end": "2018-07-21",
+    "title": "Janice Vacation - Limited Availability"
+  },
+  {
+    "start": "2018-07-22",
+    "end": "2018-07-22",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2018-07-24",
+    "end": "2018-07-24",
+    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)",
+    "description": "<b>Agenda:</b><br><ul><li>TBD</li></ul><br><br><br><b>Meeting Details:</b><br>Join Google Hangouts."
+  },
+  {
+    "start": "2018-07-27",
+    "end": "2018-07-27",
+    "title": "Dinuka - Office hours ",
+    "location": "https://hangouts.google.com/call/fUDqmLVWR_yVzmFr3tQMAAEM"
+  },
+  {
+    "start": "2018-07-27",
+    "end": "2018-07-27",
+    "title": "May - Office Hours",
+    "description": "Scheduled time outside of regular open source meetings to meet with members.",
+    "location": "https://zoom.us/j/5611124977"
+  },
+  {
+    "start": "2018-07-29",
+    "end": "2018-07-29",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2018-07-31",
+    "end": "2018-07-31",
+    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)",
+    "description": "<b>Agenda:</b><br><ul><li>TBD</li></ul><br><br><br><b>Meeting Details:</b><br>Join Google Hangouts."
+  },
+  {
+    "start": "2018-08-03",
+    "end": "2018-08-03",
+    "title": "Dinuka - Office hours ",
+    "location": "https://hangouts.google.com/call/fUDqmLVWR_yVzmFr3tQMAAEM"
+  },
+  {
+    "start": "2018-08-03",
+    "end": "2018-08-03",
+    "title": "May - Office Hours",
+    "description": "Scheduled time outside of regular open source meetings to meet with members.",
+    "location": "https://zoom.us/j/5611124977"
+  },
+  {
+    "start": "2018-08-05",
+    "end": "2018-08-05",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2018-08-07",
+    "end": "2018-08-07",
+    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)",
+    "description": "<b>Agenda:</b><br><ul><li>TBD</li></ul><br><br><br><b>Meeting Details:</b><br>Join Google Hangouts."
+  },
+  {
+    "start": "2018-08-10",
+    "end": "2018-08-10",
+    "title": "Dinuka - Office hours ",
+    "location": "https://hangouts.google.com/call/fUDqmLVWR_yVzmFr3tQMAAEM"
+  },
+  {
+    "start": "2018-08-10",
+    "end": "2018-08-10",
+    "title": "May - Office Hours",
+    "description": "Scheduled time outside of regular open source meetings to meet with members.",
+    "location": "https://zoom.us/j/5611124977"
+  },
+  {
+    "start": "2018-08-12",
+    "end": "2018-08-12",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2018-08-14",
+    "end": "2018-08-14",
+    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)",
+    "description": "<b>Agenda:</b><br><ul><li>TBD</li></ul><br><br><br><b>Meeting Details:</b><br>Join Google Hangouts."
+  },
+  {
+    "start": "2018-08-17",
+    "end": "2018-08-17",
+    "title": "May - Office Hours",
+    "description": "Scheduled time outside of regular open source meetings to meet with members.",
+    "location": "https://zoom.us/j/5611124977"
+  },
+  {
+    "start": "2018-08-19",
+    "end": "2018-08-19",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2018-08-26",
+    "end": "2018-08-26",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2018-09-02",
+    "end": "2018-09-02",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2018-09-09",
+    "end": "2018-09-09",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2018-09-16",
+    "end": "2018-09-16",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2018-09-23",
+    "end": "2018-09-23",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2018-09-30",
+    "end": "2018-09-30",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2018-10-07",
+    "end": "2018-10-07",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2018-10-14",
+    "end": "2018-10-14",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2018-10-21",
+    "end": "2018-10-21",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2018-10-28",
+    "end": "2018-10-28",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2018-11-04",
+    "end": "2018-11-04",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2018-11-11",
+    "end": "2018-11-11",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2018-11-18",
+    "end": "2018-11-18",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2018-11-25",
+    "end": "2018-11-25",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2018-12-02",
+    "end": "2018-12-02",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2018-12-09",
+    "end": "2018-12-09",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2018-12-16",
+    "end": "2018-12-16",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2018-12-23",
+    "end": "2018-12-23",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2018-12-30",
+    "end": "2018-12-30",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-01-06",
+    "end": "2019-01-06",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-01-13",
+    "end": "2019-01-13",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-01-20",
+    "end": "2019-01-20",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-01-27",
+    "end": "2019-01-27",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-02-03",
+    "end": "2019-02-03",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-02-10",
+    "end": "2019-02-10",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-02-17",
+    "end": "2019-02-17",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-02-24",
+    "end": "2019-02-24",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-03-03",
+    "end": "2019-03-03",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-03-10",
+    "end": "2019-03-10",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-03-17",
+    "end": "2019-03-17",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-03-24",
+    "end": "2019-03-24",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-03-31",
+    "end": "2019-03-31",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-04-07",
+    "end": "2019-04-07",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-04-14",
+    "end": "2019-04-14",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-04-21",
+    "end": "2019-04-21",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-04-28",
+    "end": "2019-04-28",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-05-05",
+    "end": "2019-05-05",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-05-12",
+    "end": "2019-05-12",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-05-19",
+    "end": "2019-05-19",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-05-26",
+    "end": "2019-05-26",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-06-02",
+    "end": "2019-06-02",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-06-09",
+    "end": "2019-06-09",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-06-16",
+    "end": "2019-06-16",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-06-23",
+    "end": "2019-06-23",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-06-30",
+    "end": "2019-06-30",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-07-07",
+    "end": "2019-07-07",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-07-14",
+    "end": "2019-07-14",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-07-21",
+    "end": "2019-07-21",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-07-28",
+    "end": "2019-07-28",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-08-04",
+    "end": "2019-08-04",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-08-11",
+    "end": "2019-08-11",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-08-18",
+    "end": "2019-08-18",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-08-25",
+    "end": "2019-08-25",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-09-01",
+    "end": "2019-09-01",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-09-08",
+    "end": "2019-09-08",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-09-15",
+    "end": "2019-09-15",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-09-22",
+    "end": "2019-09-22",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-09-29",
+    "end": "2019-09-29",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-10-06",
+    "end": "2019-10-06",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-10-13",
+    "end": "2019-10-13",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-10-20",
+    "end": "2019-10-20",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-10-27",
+    "end": "2019-10-27",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-11-03",
+    "end": "2019-11-03",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-11-10",
+    "end": "2019-11-10",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-11-17",
+    "end": "2019-11-17",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-11-24",
+    "end": "2019-11-24",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-12-01",
+    "end": "2019-12-01",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-12-08",
+    "end": "2019-12-08",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-12-15",
+    "end": "2019-12-15",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+  },
+  {
+    "start": "2019-12-22",
+    "end": "2019-12-22",
+    "title": "Ancy Office hours",
+    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
   }
 ]
