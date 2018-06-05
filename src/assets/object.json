@@ -1,719 +1,493 @@
 [
   {
-    "start": "2018-06-08",
-    "end": "2018-06-08",
-    "title": "Janice - Office Hours",
-    "location": "https://hangouts.google.com/call/QhNArHKm8f-53vMck3lxAAEE"
+    "start": "2018-06-06",
+    "end": "2018-06-06",
+    "title": "Scrum Check-in Due",
+    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread."
+  },
+  {
+    "start": "2018-06-07",
+    "end": "2018-06-07",
+    "title": "Week 4 PR(s) Due",
+    "description": "<b>Submit your PR(s) for Week 4's Goals.</b>",
+    "location": "GitHub Repo(s)"
   },
   {
     "start": "2018-06-08",
     "end": "2018-06-08",
-    "title": "Dinuka - Office hours ",
-    "location": "https://hangouts.google.com/call/fUDqmLVWR_yVzmFr3tQMAAEM"
+    "title": "GSoC Happy Hour",
+    "description": "<b>Icebreaker Questions:</b><br><ul><li></li><li><br></li></ul><br><br><b>Meeting Details:</b><br>Join from PC, Mac, Linux, iOS or Android: <a href=\"https://www.google.com/url?q=https%3A%2F%2Fzoom.us%2Fj%2F793825359&amp;sa=D&amp;usd=2&amp;usg=AFQjCNGB5iQWmqfRSKZkulK-d_aW25gkCQ\" target=\"_blank\">https://zoom.us/j/793825359</a><br>Join from Web Browser: <a href=\"https://www.google.com/url?q=https%3A%2F%2Fzoom.us%2Fwc%2Fjoin%2F793825359&amp;sa=D&amp;usd=2&amp;usg=AFQjCNGrmQHwqhr_wLipL70s_jwKY7lHaQ\" target=\"_blank\">https://zoom.us/wc/join/793825359</a><br><br><br><i>Questions stolen from:&nbsp;<a href=\"https://www.google.com/url?q=https%3A%2F%2Fwww.collaborationsuperpowers.com%2F44-icebreakers-for-virtual-teams%2F&amp;sa=D&amp;usd=2&amp;usg=AFQjCNFxzLzb58KYquKFg42XDfZExqZNkw\" target=\"_blank\">https://www.collaborationsuperpowers.com/44-icebreakers-for-virtual-teams/</a></i>",
+    "location": "https://zoom.us/j/793825359"
   },
   {
     "start": "2018-06-08",
     "end": "2018-06-08",
-    "title": "May - Office Hours",
-    "description": "Scheduled time outside of regular open source meetings to meet with members.",
-    "location": "https://zoom.us/j/5611124977"
+    "title": "Week 4 Wiki Report Due",
+    "description": "<b>Submit your Weekly Wiki Report for Week 4.</b>",
+    "location": "GitHub Wiki"
   },
   {
-    "start": "2018-06-09",
-    "end": "2018-06-09",
-    "title": "Janice Vacation - Limited Availability"
+    "start": "2018-06-08",
+    "end": "2018-06-08",
+    "title": "Scrum Check-in Due",
+    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread."
   },
   {
-    "start": "2018-06-10",
-    "end": "2018-06-10",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+    "start": "2018-06-11",
+    "end": "2018-06-11",
+    "title": "Evalutions - First",
+    "description": "Mentors and students submit their evaluations of one another. These evaluations are a required step of the program.",
+    "location": "https://summerofcode.withgoogle.com/"
   },
   {
-    "start": "2018-06-12",
-    "end": "2018-06-12",
-    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)",
-    "description": "<b>Agenda:</b><br><ul><li>TBD</li></ul><br><br><br><b>Meeting Details:</b><br>Join Google Hangouts."
+    "start": "2018-06-11",
+    "end": "2018-06-11",
+    "title": "Scrum Check-in Due",
+    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread."
+  },
+  {
+    "start": "2018-06-11",
+    "end": "2018-06-11",
+    "title": "Week 4 Blog Post(s) Due",
+    "description": "<b>Post your Blog Post(s) for Week 4.</b>",
+    "location": "Personal Blog"
+  },
+  {
+    "start": "2018-06-13",
+    "end": "2018-06-13",
+    "title": "Scrum Check-in Due",
+    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread."
+  },
+  {
+    "start": "2018-06-14",
+    "end": "2018-06-14",
+    "title": "Week 5 PR(s) Due",
+    "description": "<b>Submit your PR(s) for Week 5's Goals.</b>",
+    "location": "GitHub Repo(s)"
   },
   {
     "start": "2018-06-15",
     "end": "2018-06-15",
-    "title": "Dinuka - Office hours ",
-    "location": "https://hangouts.google.com/call/fUDqmLVWR_yVzmFr3tQMAAEM"
+    "title": "GSoC Happy Hour",
+    "description": "<b>Icebreaker Questions:</b><br><ul><li></li><li><br></li></ul><br><br><b>Meeting Details:</b><br>Join from PC, Mac, Linux, iOS or Android: <a href=\"https://www.google.com/url?q=https%3A%2F%2Fzoom.us%2Fj%2F793825359&amp;sa=D&amp;usd=2&amp;usg=AFQjCNGB5iQWmqfRSKZkulK-d_aW25gkCQ\" target=\"_blank\">https://zoom.us/j/793825359</a><br>Join from Web Browser: <a href=\"https://www.google.com/url?q=https%3A%2F%2Fzoom.us%2Fwc%2Fjoin%2F793825359&amp;sa=D&amp;usd=2&amp;usg=AFQjCNGrmQHwqhr_wLipL70s_jwKY7lHaQ\" target=\"_blank\">https://zoom.us/wc/join/793825359</a><br><br><br><i>Questions stolen from:&nbsp;<a href=\"https://www.google.com/url?q=https%3A%2F%2Fwww.collaborationsuperpowers.com%2F44-icebreakers-for-virtual-teams%2F&amp;sa=D&amp;usd=2&amp;usg=AFQjCNFxzLzb58KYquKFg42XDfZExqZNkw\" target=\"_blank\">https://www.collaborationsuperpowers.com/44-icebreakers-for-virtual-teams/</a></i>",
+    "location": "https://zoom.us/j/793825359"
   },
   {
     "start": "2018-06-15",
     "end": "2018-06-15",
-    "title": "May - Office Hours",
-    "description": "Scheduled time outside of regular open source meetings to meet with members.",
-    "location": "https://zoom.us/j/5611124977"
+    "title": "Week 5 Wiki Report Due",
+    "description": "<b>Submit your Weekly Wiki Report for Week 5.</b>",
+    "location": "GitHub Wiki"
   },
   {
-    "start": "2018-06-17",
-    "end": "2018-06-17",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+    "start": "2018-06-15",
+    "end": "2018-06-15",
+    "title": "Scrum Check-in Due",
+    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread."
   },
   {
-    "start": "2018-06-19",
-    "end": "2018-06-19",
-    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)",
-    "description": "<b>Agenda:</b><br><ul><li>TBD</li></ul><br><br><br><b>Meeting Details:</b><br>Join Google Hangouts."
+    "start": "2018-06-16",
+    "end": "2018-06-16",
+    "title": "Resume Review Session"
+  },
+  {
+    "start": "2018-06-18",
+    "end": "2018-06-18",
+    "title": "Scrum Check-in Due",
+    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread."
+  },
+  {
+    "start": "2018-06-18",
+    "end": "2018-06-18",
+    "title": "Week 5 Blog Post(s) Due",
+    "description": "<b>Post your Blog Post(s) for Week 5.</b>",
+    "location": "Personal Blog"
+  },
+  {
+    "start": "2018-06-20",
+    "end": "2018-06-20",
+    "title": "Scrum Check-in Due",
+    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread."
+  },
+  {
+    "start": "2018-06-21",
+    "end": "2018-06-21",
+    "title": "Week 6 PR(s) Due",
+    "description": "<b>Submit your PR(s) for Week 6's Goals.</b>",
+    "location": "GitHub Repo(s)"
   },
   {
     "start": "2018-06-22",
     "end": "2018-06-22",
-    "title": "Dinuka - Office hours ",
-    "location": "https://hangouts.google.com/call/fUDqmLVWR_yVzmFr3tQMAAEM"
+    "title": "GSoC Happy Hour",
+    "description": "<b>Icebreaker Questions:</b><br><ul><li></li><li><br></li></ul><br><br><b>Meeting Details:</b><br>Join from PC, Mac, Linux, iOS or Android: <a href=\"https://www.google.com/url?q=https%3A%2F%2Fzoom.us%2Fj%2F793825359&amp;sa=D&amp;usd=2&amp;usg=AFQjCNGB5iQWmqfRSKZkulK-d_aW25gkCQ\" target=\"_blank\">https://zoom.us/j/793825359</a><br>Join from Web Browser: <a href=\"https://www.google.com/url?q=https%3A%2F%2Fzoom.us%2Fwc%2Fjoin%2F793825359&amp;sa=D&amp;usd=2&amp;usg=AFQjCNGrmQHwqhr_wLipL70s_jwKY7lHaQ\" target=\"_blank\">https://zoom.us/wc/join/793825359</a><br><br><br><i>Questions stolen from:&nbsp;<a href=\"https://www.google.com/url?q=https%3A%2F%2Fwww.collaborationsuperpowers.com%2F44-icebreakers-for-virtual-teams%2F&amp;sa=D&amp;usd=2&amp;usg=AFQjCNFxzLzb58KYquKFg42XDfZExqZNkw\" target=\"_blank\">https://www.collaborationsuperpowers.com/44-icebreakers-for-virtual-teams/</a></i>",
+    "location": "https://zoom.us/j/793825359"
   },
   {
     "start": "2018-06-22",
     "end": "2018-06-22",
-    "title": "May - Office Hours",
-    "description": "Scheduled time outside of regular open source meetings to meet with members.",
-    "location": "https://zoom.us/j/5611124977"
+    "title": "Week 6 Wiki Report Due",
+    "description": "<b>Submit your Weekly Wiki Report for Week 6.</b>",
+    "location": "GitHub Wiki"
   },
   {
-    "start": "2018-06-24",
-    "end": "2018-06-24",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+    "start": "2018-06-22",
+    "end": "2018-06-22",
+    "title": "Scrum Check-in Due",
+    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread."
   },
   {
-    "start": "2018-06-26",
-    "end": "2018-06-26",
-    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)",
-    "description": "<b>Agenda:</b><br><ul><li>TBD</li></ul><br><br><br><b>Meeting Details:</b><br>Join Google Hangouts."
+    "start": "2018-06-25",
+    "end": "2018-06-25",
+    "title": "Scrum Check-in Due",
+    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread."
+  },
+  {
+    "start": "2018-06-25",
+    "end": "2018-06-25",
+    "title": "Week 6 Blog Post(s) Due",
+    "description": "<b>Post your Blog Post(s) for Week 6.</b>",
+    "location": "Personal Blog"
+  },
+  {
+    "start": "2018-06-27",
+    "end": "2018-06-27",
+    "title": "Scrum Check-in Due",
+    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread."
+  },
+  {
+    "start": "2018-06-28",
+    "end": "2018-06-28",
+    "title": "Week 7 PR(s) Due",
+    "description": "<b>Submit your PR(s) for Week 7's Goals.</b>",
+    "location": "GitHub Repo(s)"
   },
   {
     "start": "2018-06-29",
     "end": "2018-06-29",
-    "title": "Dinuka - Office hours ",
-    "location": "https://hangouts.google.com/call/fUDqmLVWR_yVzmFr3tQMAAEM"
+    "title": "GSoC Happy Hour",
+    "description": "<b>Icebreaker Questions:</b><br><ul><li></li><li><br></li></ul><br><br><b>Meeting Details:</b><br>Join from PC, Mac, Linux, iOS or Android: <a href=\"https://www.google.com/url?q=https%3A%2F%2Fzoom.us%2Fj%2F793825359&amp;sa=D&amp;usd=2&amp;usg=AFQjCNGB5iQWmqfRSKZkulK-d_aW25gkCQ\" target=\"_blank\">https://zoom.us/j/793825359</a><br>Join from Web Browser: <a href=\"https://www.google.com/url?q=https%3A%2F%2Fzoom.us%2Fwc%2Fjoin%2F793825359&amp;sa=D&amp;usd=2&amp;usg=AFQjCNGrmQHwqhr_wLipL70s_jwKY7lHaQ\" target=\"_blank\">https://zoom.us/wc/join/793825359</a><br><br><br><i>Questions stolen from:&nbsp;<a href=\"https://www.google.com/url?q=https%3A%2F%2Fwww.collaborationsuperpowers.com%2F44-icebreakers-for-virtual-teams%2F&amp;sa=D&amp;usd=2&amp;usg=AFQjCNFxzLzb58KYquKFg42XDfZExqZNkw\" target=\"_blank\">https://www.collaborationsuperpowers.com/44-icebreakers-for-virtual-teams/</a></i>",
+    "location": "https://zoom.us/j/793825359"
   },
   {
     "start": "2018-06-29",
     "end": "2018-06-29",
-    "title": "May - Office Hours",
-    "description": "Scheduled time outside of regular open source meetings to meet with members.",
-    "location": "https://zoom.us/j/5611124977"
+    "title": "Week 7 Wiki Report Due",
+    "description": "<b>Submit your Weekly Wiki Report for Week 7.</b>",
+    "location": "GitHub Wiki"
   },
   {
-    "start": "2018-07-01",
-    "end": "2018-07-01",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+    "start": "2018-06-29",
+    "end": "2018-06-29",
+    "title": "Scrum Check-in Due",
+    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread."
   },
   {
-    "start": "2018-07-03",
-    "end": "2018-07-03",
-    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)",
-    "description": "<b>Agenda:</b><br><ul><li>TBD</li></ul><br><br><br><b>Meeting Details:</b><br>Join Google Hangouts."
+    "start": "2018-07-02",
+    "end": "2018-07-02",
+    "title": "Scrum Check-in Due",
+    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread."
+  },
+  {
+    "start": "2018-07-02",
+    "end": "2018-07-02",
+    "title": "Week 7 Blog Post(s) Due",
+    "description": "<b>Post your Blog Post(s) for Week 7.</b>",
+    "location": "Personal Blog"
+  },
+  {
+    "start": "2018-07-04",
+    "end": "2018-07-04",
+    "title": "Scrum Check-in Due",
+    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread."
+  },
+  {
+    "start": "2018-07-05",
+    "end": "2018-07-05",
+    "title": "Week 8 PR(s) Due",
+    "description": "<b>Submit your PR(s) for Week 8's Goals.</b>",
+    "location": "GitHub Repo(s)"
   },
   {
     "start": "2018-07-06",
     "end": "2018-07-06",
-    "title": "Dinuka - Office hours ",
-    "location": "https://hangouts.google.com/call/fUDqmLVWR_yVzmFr3tQMAAEM"
+    "title": "GSoC Happy Hour",
+    "description": "<b>Icebreaker Questions:</b><br><ul><li></li><li><br></li></ul><br><br><b>Meeting Details:</b><br>Join from PC, Mac, Linux, iOS or Android: <a href=\"https://www.google.com/url?q=https%3A%2F%2Fzoom.us%2Fj%2F793825359&amp;sa=D&amp;usd=2&amp;usg=AFQjCNGB5iQWmqfRSKZkulK-d_aW25gkCQ\" target=\"_blank\">https://zoom.us/j/793825359</a><br>Join from Web Browser: <a href=\"https://www.google.com/url?q=https%3A%2F%2Fzoom.us%2Fwc%2Fjoin%2F793825359&amp;sa=D&amp;usd=2&amp;usg=AFQjCNGrmQHwqhr_wLipL70s_jwKY7lHaQ\" target=\"_blank\">https://zoom.us/wc/join/793825359</a><br><br><br><i>Questions stolen from:&nbsp;<a href=\"https://www.google.com/url?q=https%3A%2F%2Fwww.collaborationsuperpowers.com%2F44-icebreakers-for-virtual-teams%2F&amp;sa=D&amp;usd=2&amp;usg=AFQjCNFxzLzb58KYquKFg42XDfZExqZNkw\" target=\"_blank\">https://www.collaborationsuperpowers.com/44-icebreakers-for-virtual-teams/</a></i>",
+    "location": "https://zoom.us/j/793825359"
   },
   {
     "start": "2018-07-06",
     "end": "2018-07-06",
-    "title": "May - Office Hours",
-    "description": "Scheduled time outside of regular open source meetings to meet with members.",
-    "location": "https://zoom.us/j/5611124977"
+    "title": "Week 8 Wiki Report Due",
+    "description": "<b>Submit your Weekly Wiki Report for Week 8.</b>",
+    "location": "GitHub Wiki"
   },
   {
-    "start": "2018-07-08",
-    "end": "2018-07-08",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+    "start": "2018-07-06",
+    "end": "2018-07-06",
+    "title": "Scrum Check-in Due",
+    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread."
   },
   {
-    "start": "2018-07-10",
-    "end": "2018-07-10",
-    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)",
-    "description": "<b>Agenda:</b><br><ul><li>TBD</li></ul><br><br><br><b>Meeting Details:</b><br>Join Google Hangouts."
+    "start": "2018-07-09",
+    "end": "2018-07-09",
+    "title": "Evalutions - Second",
+    "description": "Mentors and students submit their evaluations of one another. These evaluations are a required step of the program.",
+    "location": "https://summerofcode.withgoogle.com/"
+  },
+  {
+    "start": "2018-07-09",
+    "end": "2018-07-09",
+    "title": "Scrum Check-in Due",
+    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread."
+  },
+  {
+    "start": "2018-07-09",
+    "end": "2018-07-09",
+    "title": "Week 8 Blog Post(s) Due",
+    "description": "<b>Post your Blog Post(s) for Week 8.</b>",
+    "location": "Personal Blog"
+  },
+  {
+    "start": "2018-07-11",
+    "end": "2018-07-11",
+    "title": "Scrum Check-in Due",
+    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread."
+  },
+  {
+    "start": "2018-07-12",
+    "end": "2018-07-12",
+    "title": "Week 9 PR(s) Due",
+    "description": "<b>Submit your PR(s) for Week 9's Goals.</b>",
+    "location": "GitHub Repo(s)"
   },
   {
     "start": "2018-07-13",
     "end": "2018-07-13",
-    "title": "Dinuka - Office hours ",
-    "location": "https://hangouts.google.com/call/fUDqmLVWR_yVzmFr3tQMAAEM"
+    "title": "GSoC Happy Hour",
+    "description": "<b>Icebreaker Questions:</b><br><ul><li></li><li><br></li></ul><br><br><b>Meeting Details:</b><br>Join from PC, Mac, Linux, iOS or Android: <a href=\"https://www.google.com/url?q=https%3A%2F%2Fzoom.us%2Fj%2F793825359&amp;sa=D&amp;usd=2&amp;usg=AFQjCNGB5iQWmqfRSKZkulK-d_aW25gkCQ\" target=\"_blank\">https://zoom.us/j/793825359</a><br>Join from Web Browser: <a href=\"https://www.google.com/url?q=https%3A%2F%2Fzoom.us%2Fwc%2Fjoin%2F793825359&amp;sa=D&amp;usd=2&amp;usg=AFQjCNGrmQHwqhr_wLipL70s_jwKY7lHaQ\" target=\"_blank\">https://zoom.us/wc/join/793825359</a><br><br><br><i>Questions stolen from:&nbsp;<a href=\"https://www.google.com/url?q=https%3A%2F%2Fwww.collaborationsuperpowers.com%2F44-icebreakers-for-virtual-teams%2F&amp;sa=D&amp;usd=2&amp;usg=AFQjCNFxzLzb58KYquKFg42XDfZExqZNkw\" target=\"_blank\">https://www.collaborationsuperpowers.com/44-icebreakers-for-virtual-teams/</a></i>",
+    "location": "https://zoom.us/j/793825359"
   },
   {
     "start": "2018-07-13",
     "end": "2018-07-13",
-    "title": "May - Office Hours",
-    "description": "Scheduled time outside of regular open source meetings to meet with members.",
-    "location": "https://zoom.us/j/5611124977"
+    "title": "Week 9 Wiki Report Due",
+    "description": "<b>Submit your Weekly Wiki Report for Week 9.</b>",
+    "location": "GitHub Wiki"
   },
   {
-    "start": "2018-07-15",
-    "end": "2018-07-15",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+    "start": "2018-07-13",
+    "end": "2018-07-13",
+    "title": "Scrum Check-in Due",
+    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread."
   },
   {
-    "start": "2018-07-17",
-    "end": "2018-07-17",
-    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)",
-    "description": "<b>Agenda:</b><br><ul><li>TBD</li></ul><br><br><br><b>Meeting Details:</b><br>Join Google Hangouts."
+    "start": "2018-07-16",
+    "end": "2018-07-16",
+    "title": "Scrum Check-in Due",
+    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread."
+  },
+  {
+    "start": "2018-07-16",
+    "end": "2018-07-16",
+    "title": "Week 9 Blog Post(s) Due",
+    "description": "<b>Post your Blog Post(s) for Week 9.</b>",
+    "location": "Personal Blog"
+  },
+  {
+    "start": "2018-07-18",
+    "end": "2018-07-18",
+    "title": "Scrum Check-in Due",
+    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread."
+  },
+  {
+    "start": "2018-07-19",
+    "end": "2018-07-19",
+    "title": "Week 10 PR(s) Due",
+    "description": "<b>Submit your PR(s) for Week 10's Goals.</b>",
+    "location": "GitHub Repo(s)"
   },
   {
     "start": "2018-07-20",
     "end": "2018-07-20",
-    "title": "Dinuka - Office hours ",
-    "location": "https://hangouts.google.com/call/fUDqmLVWR_yVzmFr3tQMAAEM"
+    "title": "GSoC Happy Hour",
+    "description": "<b>Icebreaker Questions:</b><br><ul><li></li><li><br></li></ul><br><br><b>Meeting Details:</b><br>Join from PC, Mac, Linux, iOS or Android: <a href=\"https://www.google.com/url?q=https%3A%2F%2Fzoom.us%2Fj%2F793825359&amp;sa=D&amp;usd=2&amp;usg=AFQjCNGB5iQWmqfRSKZkulK-d_aW25gkCQ\" target=\"_blank\">https://zoom.us/j/793825359</a><br>Join from Web Browser: <a href=\"https://www.google.com/url?q=https%3A%2F%2Fzoom.us%2Fwc%2Fjoin%2F793825359&amp;sa=D&amp;usd=2&amp;usg=AFQjCNGrmQHwqhr_wLipL70s_jwKY7lHaQ\" target=\"_blank\">https://zoom.us/wc/join/793825359</a><br><br><br><i>Questions stolen from:&nbsp;<a href=\"https://www.google.com/url?q=https%3A%2F%2Fwww.collaborationsuperpowers.com%2F44-icebreakers-for-virtual-teams%2F&amp;sa=D&amp;usd=2&amp;usg=AFQjCNFxzLzb58KYquKFg42XDfZExqZNkw\" target=\"_blank\">https://www.collaborationsuperpowers.com/44-icebreakers-for-virtual-teams/</a></i>",
+    "location": "https://zoom.us/j/793825359"
   },
   {
     "start": "2018-07-20",
     "end": "2018-07-20",
-    "title": "May - Office Hours",
-    "description": "Scheduled time outside of regular open source meetings to meet with members.",
-    "location": "https://zoom.us/j/5611124977"
+    "title": "Week 10 Wiki Report Due",
+    "description": "<b>Submit your Weekly Wiki Report for Week 10.</b>",
+    "location": "GitHub Wiki"
   },
   {
-    "start": "2018-07-21",
-    "end": "2018-07-21",
-    "title": "Janice Vacation - Limited Availability"
+    "start": "2018-07-20",
+    "end": "2018-07-20",
+    "title": "Scrum Check-in Due",
+    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread."
   },
   {
-    "start": "2018-07-22",
-    "end": "2018-07-22",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+    "start": "2018-07-23",
+    "end": "2018-07-23",
+    "title": "Scrum Check-in Due",
+    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread."
   },
   {
-    "start": "2018-07-24",
-    "end": "2018-07-24",
-    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)",
-    "description": "<b>Agenda:</b><br><ul><li>TBD</li></ul><br><br><br><b>Meeting Details:</b><br>Join Google Hangouts."
+    "start": "2018-07-23",
+    "end": "2018-07-23",
+    "title": "Week 10 Blog Post(s) Due",
+    "description": "<b>Post your Blog Post(s) for Week 10.</b>",
+    "location": "Personal Blog"
+  },
+  {
+    "start": "2018-07-25",
+    "end": "2018-07-25",
+    "title": "Scrum Check-in Due",
+    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread."
+  },
+  {
+    "start": "2018-07-26",
+    "end": "2018-07-26",
+    "title": "Week 11 PR(s) Due",
+    "description": "<b>Submit your PR(s) for Week 11's Goals.</b>",
+    "location": "GitHub Repo(s)"
   },
   {
     "start": "2018-07-27",
     "end": "2018-07-27",
-    "title": "Dinuka - Office hours ",
-    "location": "https://hangouts.google.com/call/fUDqmLVWR_yVzmFr3tQMAAEM"
+    "title": "GSoC Happy Hour",
+    "description": "<b>Icebreaker Questions:</b><br><ul><li></li><li><br></li></ul><br><br><b>Meeting Details:</b><br>Join from PC, Mac, Linux, iOS or Android: <a href=\"https://www.google.com/url?q=https%3A%2F%2Fzoom.us%2Fj%2F793825359&amp;sa=D&amp;usd=2&amp;usg=AFQjCNGB5iQWmqfRSKZkulK-d_aW25gkCQ\" target=\"_blank\">https://zoom.us/j/793825359</a><br>Join from Web Browser: <a href=\"https://www.google.com/url?q=https%3A%2F%2Fzoom.us%2Fwc%2Fjoin%2F793825359&amp;sa=D&amp;usd=2&amp;usg=AFQjCNGrmQHwqhr_wLipL70s_jwKY7lHaQ\" target=\"_blank\">https://zoom.us/wc/join/793825359</a><br><br><br><i>Questions stolen from:&nbsp;<a href=\"https://www.google.com/url?q=https%3A%2F%2Fwww.collaborationsuperpowers.com%2F44-icebreakers-for-virtual-teams%2F&amp;sa=D&amp;usd=2&amp;usg=AFQjCNFxzLzb58KYquKFg42XDfZExqZNkw\" target=\"_blank\">https://www.collaborationsuperpowers.com/44-icebreakers-for-virtual-teams/</a></i>",
+    "location": "https://zoom.us/j/793825359"
   },
   {
     "start": "2018-07-27",
     "end": "2018-07-27",
-    "title": "May - Office Hours",
-    "description": "Scheduled time outside of regular open source meetings to meet with members.",
-    "location": "https://zoom.us/j/5611124977"
+    "title": "Week 11 Wiki Report Due",
+    "description": "<b>Submit your Weekly Wiki Report for Week 11.</b>",
+    "location": "GitHub Wiki"
   },
   {
-    "start": "2018-07-29",
-    "end": "2018-07-29",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+    "start": "2018-07-27",
+    "end": "2018-07-27",
+    "title": "Scrum Check-in Due",
+    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread."
   },
   {
-    "start": "2018-07-31",
-    "end": "2018-07-31",
-    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)",
-    "description": "<b>Agenda:</b><br><ul><li>TBD</li></ul><br><br><br><b>Meeting Details:</b><br>Join Google Hangouts."
+    "start": "2018-07-30",
+    "end": "2018-07-30",
+    "title": "Scrum Check-in Due",
+    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread."
+  },
+  {
+    "start": "2018-07-30",
+    "end": "2018-07-30",
+    "title": "Week 11 Blog Post(s) Due",
+    "description": "<b>Post your Blog Post(s) for Week 11.</b>",
+    "location": "Personal Blog"
+  },
+  {
+    "start": "2018-08-01",
+    "end": "2018-08-01",
+    "title": "Scrum Check-in Due",
+    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread."
+  },
+  {
+    "start": "2018-08-02",
+    "end": "2018-08-02",
+    "title": "Week 12 PR(s) Due",
+    "description": "<b>Submit your PR(s) for Week 12's Goals.</b>",
+    "location": "GitHub Repo(s)"
   },
   {
     "start": "2018-08-03",
     "end": "2018-08-03",
-    "title": "Dinuka - Office hours ",
-    "location": "https://hangouts.google.com/call/fUDqmLVWR_yVzmFr3tQMAAEM"
+    "title": "GSoC Happy Hour",
+    "description": "<b>Icebreaker Questions:</b><br><ul><li></li><li><br></li></ul><br><br><b>Meeting Details:</b><br>Join from PC, Mac, Linux, iOS or Android: <a href=\"https://www.google.com/url?q=https%3A%2F%2Fzoom.us%2Fj%2F793825359&amp;sa=D&amp;usd=2&amp;usg=AFQjCNGB5iQWmqfRSKZkulK-d_aW25gkCQ\" target=\"_blank\">https://zoom.us/j/793825359</a><br>Join from Web Browser: <a href=\"https://www.google.com/url?q=https%3A%2F%2Fzoom.us%2Fwc%2Fjoin%2F793825359&amp;sa=D&amp;usd=2&amp;usg=AFQjCNGrmQHwqhr_wLipL70s_jwKY7lHaQ\" target=\"_blank\">https://zoom.us/wc/join/793825359</a><br><br><br><i>Questions stolen from:&nbsp;<a href=\"https://www.google.com/url?q=https%3A%2F%2Fwww.collaborationsuperpowers.com%2F44-icebreakers-for-virtual-teams%2F&amp;sa=D&amp;usd=2&amp;usg=AFQjCNFxzLzb58KYquKFg42XDfZExqZNkw\" target=\"_blank\">https://www.collaborationsuperpowers.com/44-icebreakers-for-virtual-teams/</a></i>",
+    "location": "https://zoom.us/j/793825359"
   },
   {
     "start": "2018-08-03",
     "end": "2018-08-03",
-    "title": "May - Office Hours",
-    "description": "Scheduled time outside of regular open source meetings to meet with members.",
-    "location": "https://zoom.us/j/5611124977"
+    "title": "Week 12 Wiki Report Due",
+    "description": "<b>Submit your Weekly Wiki Report for Week 12.</b>",
+    "location": "GitHub Wiki"
   },
   {
-    "start": "2018-08-05",
-    "end": "2018-08-05",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+    "start": "2018-08-03",
+    "end": "2018-08-03",
+    "title": "Scrum Check-in Due",
+    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread."
   },
   {
-    "start": "2018-08-07",
-    "end": "2018-08-07",
-    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)",
-    "description": "<b>Agenda:</b><br><ul><li>TBD</li></ul><br><br><br><b>Meeting Details:</b><br>Join Google Hangouts."
+    "start": "2018-08-06",
+    "end": "2018-08-06",
+    "title": "Student Evaluations - Final",
+    "description": "Students submit their code, project summaries, and final evaluations of their mentors.",
+    "location": "https://summerofcode.withgoogle.com/"
+  },
+  {
+    "start": "2018-08-06",
+    "end": "2018-08-06",
+    "title": "Scrum Check-in Due",
+    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread."
+  },
+  {
+    "start": "2018-08-06",
+    "end": "2018-08-06",
+    "title": "Week 12 Blog Post(s) Due",
+    "description": "<b>Post your Blog Post(s) for Week 12.</b>",
+    "location": "Personal Blog"
+  },
+  {
+    "start": "2018-08-08",
+    "end": "2018-08-08",
+    "title": "Scrum Check-in Due",
+    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread."
   },
   {
     "start": "2018-08-10",
     "end": "2018-08-10",
-    "title": "Dinuka - Office hours ",
-    "location": "https://hangouts.google.com/call/fUDqmLVWR_yVzmFr3tQMAAEM"
+    "title": "GSoC Happy Hour",
+    "description": "<b>Icebreaker Questions:</b><br><ul><li></li><li><br></li></ul><br><br><b>Meeting Details:</b><br>Join from PC, Mac, Linux, iOS or Android: <a href=\"https://www.google.com/url?q=https%3A%2F%2Fzoom.us%2Fj%2F793825359&amp;sa=D&amp;usd=2&amp;usg=AFQjCNGB5iQWmqfRSKZkulK-d_aW25gkCQ\" target=\"_blank\">https://zoom.us/j/793825359</a><br>Join from Web Browser: <a href=\"https://www.google.com/url?q=https%3A%2F%2Fzoom.us%2Fwc%2Fjoin%2F793825359&amp;sa=D&amp;usd=2&amp;usg=AFQjCNGrmQHwqhr_wLipL70s_jwKY7lHaQ\" target=\"_blank\">https://zoom.us/wc/join/793825359</a><br><br><br><i>Questions stolen from:&nbsp;<a href=\"https://www.google.com/url?q=https%3A%2F%2Fwww.collaborationsuperpowers.com%2F44-icebreakers-for-virtual-teams%2F&amp;sa=D&amp;usd=2&amp;usg=AFQjCNFxzLzb58KYquKFg42XDfZExqZNkw\" target=\"_blank\">https://www.collaborationsuperpowers.com/44-icebreakers-for-virtual-teams/</a></i>",
+    "location": "https://zoom.us/j/793825359"
   },
   {
     "start": "2018-08-10",
     "end": "2018-08-10",
-    "title": "May - Office Hours",
-    "description": "Scheduled time outside of regular open source meetings to meet with members.",
-    "location": "https://zoom.us/j/5611124977"
+    "title": "Scrum Check-in Due",
+    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread."
   },
   {
-    "start": "2018-08-12",
-    "end": "2018-08-12",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+    "start": "2018-08-10",
+    "end": "2018-08-10",
+    "title": "Final Demos Due"
+  },
+  {
+    "start": "2018-08-13",
+    "end": "2018-08-13",
+    "title": "Scrum Check-in Due",
+    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread."
   },
   {
     "start": "2018-08-14",
     "end": "2018-08-14",
-    "title": "GitHub Pages (All Teams) Weekly Meeting (All are welcome!)",
-    "description": "<b>Agenda:</b><br><ul><li>TBD</li></ul><br><br><br><b>Meeting Details:</b><br>Join Google Hangouts."
+    "title": "Mentor Evaluations - Final",
+    "description": "\nMentors review student code samples and determine if the students have successfully completed their Google Summer of Code 2018 project.",
+    "location": "https://summerofcode.withgoogle.com/"
   },
   {
     "start": "2018-08-17",
     "end": "2018-08-17",
-    "title": "May - Office Hours",
-    "description": "Scheduled time outside of regular open source meetings to meet with members.",
-    "location": "https://zoom.us/j/5611124977"
-  },
-  {
-    "start": "2018-08-19",
-    "end": "2018-08-19",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2018-08-26",
-    "end": "2018-08-26",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2018-09-02",
-    "end": "2018-09-02",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2018-09-09",
-    "end": "2018-09-09",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2018-09-16",
-    "end": "2018-09-16",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2018-09-23",
-    "end": "2018-09-23",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2018-09-30",
-    "end": "2018-09-30",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2018-10-07",
-    "end": "2018-10-07",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2018-10-14",
-    "end": "2018-10-14",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2018-10-21",
-    "end": "2018-10-21",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2018-10-28",
-    "end": "2018-10-28",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2018-11-04",
-    "end": "2018-11-04",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2018-11-11",
-    "end": "2018-11-11",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2018-11-18",
-    "end": "2018-11-18",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2018-11-25",
-    "end": "2018-11-25",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2018-12-02",
-    "end": "2018-12-02",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2018-12-09",
-    "end": "2018-12-09",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2018-12-16",
-    "end": "2018-12-16",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2018-12-23",
-    "end": "2018-12-23",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2018-12-30",
-    "end": "2018-12-30",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-01-06",
-    "end": "2019-01-06",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-01-13",
-    "end": "2019-01-13",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-01-20",
-    "end": "2019-01-20",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-01-27",
-    "end": "2019-01-27",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-02-03",
-    "end": "2019-02-03",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-02-10",
-    "end": "2019-02-10",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-02-17",
-    "end": "2019-02-17",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-02-24",
-    "end": "2019-02-24",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-03-03",
-    "end": "2019-03-03",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-03-10",
-    "end": "2019-03-10",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-03-17",
-    "end": "2019-03-17",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-03-24",
-    "end": "2019-03-24",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-03-31",
-    "end": "2019-03-31",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-04-07",
-    "end": "2019-04-07",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-04-14",
-    "end": "2019-04-14",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-04-21",
-    "end": "2019-04-21",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-04-28",
-    "end": "2019-04-28",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-05-05",
-    "end": "2019-05-05",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-05-12",
-    "end": "2019-05-12",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-05-19",
-    "end": "2019-05-19",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-05-26",
-    "end": "2019-05-26",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-06-02",
-    "end": "2019-06-02",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-06-09",
-    "end": "2019-06-09",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-06-16",
-    "end": "2019-06-16",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-06-23",
-    "end": "2019-06-23",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-06-30",
-    "end": "2019-06-30",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-07-07",
-    "end": "2019-07-07",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-07-14",
-    "end": "2019-07-14",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-07-21",
-    "end": "2019-07-21",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-07-28",
-    "end": "2019-07-28",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-08-04",
-    "end": "2019-08-04",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-08-11",
-    "end": "2019-08-11",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-08-18",
-    "end": "2019-08-18",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-08-25",
-    "end": "2019-08-25",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-09-01",
-    "end": "2019-09-01",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-09-08",
-    "end": "2019-09-08",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-09-15",
-    "end": "2019-09-15",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-09-22",
-    "end": "2019-09-22",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-09-29",
-    "end": "2019-09-29",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-10-06",
-    "end": "2019-10-06",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-10-13",
-    "end": "2019-10-13",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-10-20",
-    "end": "2019-10-20",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-10-27",
-    "end": "2019-10-27",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-11-03",
-    "end": "2019-11-03",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-11-10",
-    "end": "2019-11-10",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-11-17",
-    "end": "2019-11-17",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-11-24",
-    "end": "2019-11-24",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-12-01",
-    "end": "2019-12-01",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-12-08",
-    "end": "2019-12-08",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-12-15",
-    "end": "2019-12-15",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-12-22",
-    "end": "2019-12-22",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2019-12-29",
-    "end": "2019-12-29",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2020-01-05",
-    "end": "2020-01-05",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
-  },
-  {
-    "start": "2020-01-12",
-    "end": "2020-01-12",
-    "title": "Ancy Office hours",
-    "description": "https://hangouts.google.com/call/zLu3J6D8sNfK451dMVR7AAEE"
+    "title": "GSoC Happy Hour",
+    "description": "<b>Icebreaker Questions:</b><br><ul><li></li><li><br></li></ul><br><br><b>Meeting Details:</b><br>Join from PC, Mac, Linux, iOS or Android: <a href=\"https://www.google.com/url?q=https%3A%2F%2Fzoom.us%2Fj%2F793825359&amp;sa=D&amp;usd=2&amp;usg=AFQjCNGB5iQWmqfRSKZkulK-d_aW25gkCQ\" target=\"_blank\">https://zoom.us/j/793825359</a><br>Join from Web Browser: <a href=\"https://www.google.com/url?q=https%3A%2F%2Fzoom.us%2Fwc%2Fjoin%2F793825359&amp;sa=D&amp;usd=2&amp;usg=AFQjCNGrmQHwqhr_wLipL70s_jwKY7lHaQ\" target=\"_blank\">https://zoom.us/wc/join/793825359</a><br><br><br><i>Questions stolen from:&nbsp;<a href=\"https://www.google.com/url?q=https%3A%2F%2Fwww.collaborationsuperpowers.com%2F44-icebreakers-for-virtual-teams%2F&amp;sa=D&amp;usd=2&amp;usg=AFQjCNFxzLzb58KYquKFg42XDfZExqZNkw\" target=\"_blank\">https://www.collaborationsuperpowers.com/44-icebreakers-for-virtual-teams/</a></i>",
+    "location": "https://zoom.us/j/793825359"
+  },
+  {
+    "start": "2018-08-22",
+    "end": "2018-08-22",
+    "title": "Results Announced",
+    "description": "Students are notified of the pass/fail status of their Google Summer of Code 2018 projects.<br><span style=\"color: rgba(0, 0, 0, 0.87); font-family: Roboto, &quot;Helvetica Neue&quot;, sans-serif; font-size: 16px; background-color: rgb(255, 255, 255);\"></span>",
+    "location": "https://summerofcode.withgoogle.com/"
   }
 ]
