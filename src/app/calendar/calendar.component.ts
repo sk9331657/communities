@@ -25,7 +25,7 @@ interface res {
     title: string;
 }
 let arr = [];
-for (var _i = 0; _i < 20; _i++) {
+for (var _i = 0; _i < 40; _i++) {
     var num = word[_i];
 
     if(num){
