@@ -2,7 +2,7 @@ import { Component, ChangeDetectionStrategy, ViewChild, OnInit, TemplateRef } fr
 import { startOfDay, endOfDay, subDays, addDays, endOfMonth, isSameDay, isSameMonth, addHours } from 'date-fns';
 import { Subject } from 'rxjs/Subject';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
-import { CalendarEvent } from 'angular-calendar';
+import { CalendarEvent,CalendarEventTimesChangedEvent } from 'angular-calendar';
 import word from '../caldata';
 
 const colors: any = {
@@ -32,7 +32,9 @@ for (var _i = 0; _i < 40; _i++) {
       arr.push({
       start:new Date(num.start),
       end:new Date(num.end),
-      title:num.title
+      title:num.title,
+      location:num.location,
+      description:num.description
     });
     }
     
@@ -51,6 +53,10 @@ export class CalendarComponent implements OnInit {
   view: string = 'month';
     
   viewDate: Date = new Date();
+   modalData: {
+    action: string;
+    event: CalendarEvent;
+  };
 
   refresh: Subject<any> = new Subject();
   events: CalendarEvent[] = arr;
@@ -73,6 +79,23 @@ export class CalendarComponent implements OnInit {
       }
     }
   }
+  eventTimesChanged({
+    event,
+    newStart,
+    newEnd
+  }: CalendarEventTimesChangedEvent): void {
+    event.start = newStart;
+    event.end = newEnd;
+    this.handleEvent('Dropped or resized', event);
+    this.refresh.next();
+  }
+
+
+  handleEvent(action: string, event: CalendarEvent): void {
+    this.modalData = { event, action };
+    this.modal.open(this.modalContent, { size: 'lg' });
+  }
+
 
 
   ngOnInit(){

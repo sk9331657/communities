@@ -1,3 +1,4 @@
+
 <div id="srcs"></div>
 <div class="container" >
 <ng-template #modalContent let-close="close">
@@ -7,7 +8,19 @@
       <span aria-hidden="true">&times;</span>
     </button>
   </div>
-
+  <div class="modal-body">
+  
+    <div>
+      Event:
+      <p> Description </p>
+      <pre>{{ modalData?.event.description }}</pre>
+      <p> Location </p>
+      <pre>{{ modalData?.event.location }}</pre>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-outline-secondary" (click)="close()">OK</button>
+  </div>
 </ng-template>
 
 <div class="row headd text-center">
