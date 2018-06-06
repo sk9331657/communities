@@ -1,3 +1,99 @@
-<p>
-  communities works!
-</p>
+
+<div class ="mx-auto" >
+ 
+    <mdb-carousel [isControls]="true" [animation]="'slide'" [interval]="myInterval" [(activeSlide)]="activeSlideIndex" (activeSlideChange)="activeSlideChange()">
+      <mdb-slide *ngFor="let slide of slides; let index=index">
+        <img [src]="slide.image" class="d-block w-80 h-70 cimage" >
+        <div class="carousel-caption">
+          <h4>Slide {{index}}</h4>
+          <p>{{slide.text}}</p>
+        </div>
+      </mdb-slide>
+    </mdb-carousel>
+ 
+</div>
+<div class = "container mx-auto d-block " style="padding-top: 20px;">
+<ngb-tabset (tabChange)="beforeChange($event)" [justify]="currentJustify" >
+
+<ngb-tab id="tab-preventchange1" title="Systers Affinity Groups">
+    <ng-template ngbTabContent>
+    <center><h2>Systers Affinity Groups</h2></center>
+    <center>
+    <div class="row">
+        <div class="col-sm-3" *ngFor="let det of details ; let index=index ;" style="margin-bottom: 20px;">
+        <div class="card" style="margin:auto;">
+            <img class="sig-img" src="../assets/img/women1.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">{{det.title}}</h4>
+                <p class="card-text">{{det.desc}}</p>
+            </div>
+        <br>
+        <br>
+       
+        <div style="margin-bottom: 20px;">
+            <a href="{{ det.mailing }}" target="_blank" mdbWavesEffect >Mailing List</a>              
+        </div>
+         </div>
+        </div>
+        <br>
+        <br>
+    </div>
+    </center>
+            
+    </ng-template>
+  </ngb-tab>
+  
+ 
+  <ngb-tab id="tab-preventchange2" title="Systers Special Interest Groups">
+    <ng-template ngbTabContent>
+    <center><h2>Systers Special Interest Groups</h2></center>
+    <center>
+    <div class="row">
+        <div class="col-sm-3" *ngFor="let det of details_sig ; let index=index ;" style="margin-bottom: 20px;">
+        <div class="card" style="margin:auto;">
+            <img class="sig-img" src="../assets/img/women1.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">{{det.title}}</h4>
+                <p class="card-text">{{det.desc}}</p>
+            </div>
+        <br>
+        <br>
+       
+        <div style="margin-bottom: 20px;">
+            <a href="{{ det.mailing }}" target="_blank" mdbWavesEffect >Mailing List</a>              
+        </div>
+         </div>
+        </div>
+        <br>
+        <br>
+    </div>
+    </center>
+            
+    </ng-template>
+  </ngb-tab>
+  
+  <ngb-tab title="CRA-W Email Groups" >
+    <ng-template ngbTabContent>
+        <center><h2>CRA-W Email Groups</h2></center>
+        <center>
+        <div class="row">
+            <div class="col-sm-12 col-md-3" *ngFor="let det of detail_mail ; let index=index ;" style="margin-bottom: 20px;">
+            <div class="card">
+                <img class="sig-img" src="../assets/img/women1.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h4 class="card-title">{{det.title}}</h4>
+                    <p class="card-text">{{det.desc}}</p>
+                </div>
+            <div style="margin-bottom: 20px;">
+            <a href="{{ det.mailing }}" target="_blank" mdbWavesEffect >Mailing List</a>              
+            </div>
+            </div>
+
+            </div>
+        </div>
+        </center>
+    </ng-template>
+  </ngb-tab>
+  
+</ngb-tabset>
+</div>

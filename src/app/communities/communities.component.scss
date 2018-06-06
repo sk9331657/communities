@@ -1,0 +1,40 @@
+center{
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.brand-c { 
+  width: 80%;
+  height : 70%;
+  border-collapse: collapse;
+  
+}
+.sig-img{
+	height :130px;
+	width :100%;
+}
+.card{
+	height : 100%;
+	width : 90%;
+	
+}
+ngb-tabset{
+	margin-top :10px;
+	
+}
+h2{
+	font-family: 'Source Sans Pro', sans-serif;
+	margin:30px;
+}
+.cimage{
+    max-height: 550px;
+    width : 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .cimage{
+    max-height: 450px;
+    width : 100%;
+}
+  
+
+}

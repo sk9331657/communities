@@ -12,6 +12,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppRoutingModule } from './/app-routing.module';
 import { CommunitiesComponent } from './communities/communities.component';
 import { FormsModule }   from '@angular/forms';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,6 +27,7 @@ import { FormsModule }   from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    NgbModule.forRoot(),
     FormsModule,
     MDBBootstrapModule.forRoot(),
     
