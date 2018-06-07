@@ -13,7 +13,7 @@
     <div>
       Event:
       <p> Description </p>
-      <pre>{{ modalData?.event.description }}</pre>
+      <pre [innerHTML]="modalData?.event.description " class="descr" ></pre>
       <p> Location </p>
       <pre>{{ modalData?.event.location }}</pre>
     </div>
