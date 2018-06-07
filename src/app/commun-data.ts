@@ -13,8 +13,7 @@ export const COMM: Commun[] = [
   { title: 'Filipinas in Computing', mailing: 'http://systers.org/mailman/listinfo/filipinasic/', desc:'Our group  brings together Filipina women interested in, working in, or studying computing or STEM. Our goal is to promote the visibility and impact of Filipinas in tech, and to celebrate their success in the industry.', img:'' },
   
   { title: 'Indian Women in Computing', mailing: 'http://systers.org/mailman/listinfo/indianwic/', desc:'Our group offers guidance and mentoring to our members so they may succeed in the fields of computing and technology.', img:'' },
-
-  { title: 'Iranian Women in Computing', mailing: 'https://www.facebook.com/groups/abi.iranianwic/', desc:'Our group builds a strong network of Iranian female students and professionals working in different technology-related fields. We aim to improve the visibility and impact of the Iranian women technologists via collaboration, exchanging ideas and resources, and holding regular meetups.', img:'' },
+  { title: 'Iranian Women in Computing', mailing: 'https://www.facebook.com/groups/abi.iranianwic/', desc:'Our group builds a strong network of Iranian female students and professionals working in different technology-related fields. ', img:'' },
 
   { title: 'Japanese Women in Computing', mailing: 'https://systers.org/mailman/listinfo/japanesewic', desc:'Engage with our group members by sharing experiences and resources with each other. Make valuable connections and learn how you can further your career.', img:'' },
   
@@ -24,16 +23,17 @@ export const COMM: Commun[] = [
 
   { title: 'LGBTQ-A in Computing', mailing: 'http://systers.org/mailman/listinfo/lgbt/', desc:'Created in 2006, our international group gathers lesbian, gay, bisexual, transgender, and queer technologists from academia, industry, and government. We welcome people from all areas of computing, including LGBTQ allies.', img:'' },
 
-  { title: 'Native American Women in Computing', mailing: 'http://systers.org/mailman/listinfo/nawic', desc:'There are very few Native American women in computing, which is why this group provides support, inspiration, mentoring, and resources to those in need of support. We include tribes across the Americas.', img:'' },
+  { title: 'Native American Women in Computing', mailing: 'http://systers.org/mailman/listinfo/nawic', desc:'There are very few Native American women in computing, which is why this group provides support, inspiration, mentoring, and resources to those in need of support. ', img:'' },
   
-  { title: 'Pakistani Women in Computing', mailing: 'http://systers.org/mailman/listinfo/pwic', desc:'Pakistani Women in Computing provides a safe environment for Pakistani women to connect, learn, and support each other. Share your experiences, advice, and resources so that you and your Systers may thrive in your careers.', img:'' },
+  { title: 'Pakistani Women in Computing', mailing: 'http://systers.org/mailman/listinfo/pwic', desc:'Pakistani Women in Computing provides a safe environment for Pakistani women to connect, learn, and support each other.', img:'' },
 
-  { title: 'Systers-Spain', mailing: 'http://systers.org/mailman/listinfo/systers-spain', desc:'Systers Spain is a group for women in computing in or from Spain. Our members support each other, share resources, and discuss issues related to women in computing, specifically in Spain. Conversations are in Spanish to create a comfortable environment for all participants.', img:'' },
+  { title: 'Systers-Spain', mailing: 'http://systers.org/mailman/listinfo/systers-spain', desc:'Systers Spain is a group for women in computing in or from Spain. Our members support each other, share resources, and discuss issues related to women in computing, specifically in Spain.', img:'' },
 
   { title: 'Turkish Women in Computing', mailing: 'http://systers.org/mailman/listinfo/twics/', desc:'Turkish Women in Computing allows women of Turkish descent to connect, network, learn, and grow. Help create a mentoring atmosphere by sharing your experiences and advice.', img:'' },
   
-   { title: 'Underrepresented Women in Computing', mailing: 'https://www.facebook.com/groups/WoC.Computing/', desc:'This group was created by and for underrepresented women in computing (Hispanic/Latina, Native American, women of color, and women with disabilities). Our mission is to promote the representation of these women as well as their success in computing-related fields.', img:'' },
+   { title: 'Underrepresented Women in Computing', mailing: 'https://www.facebook.com/groups/WoC.Computing/', desc:'This group was created by and for underrepresented women in computing (Hispanic/Latina, Native American, women of color, and women with disabilities).', img:'' },
 
-  { title: 'Vietnamese Women in Computing', mailing: 'http://systers.org/mailman/listinfo/twics/', desc:'Vietnamese Women in Computing consists of women with Vietnamese heritage who have a computing degree or computing career, or who are interested in joining the field of computing. Gain the support you need to thrive in the tech industry.', img:'' }
+  { title: 'Vietnamese Women in Computing', mailing: 'http://systers.org/mailman/listinfo/twics/', desc:'Vietnamese Women in Computing consists of women with Vietnamese heritage who have a computing degree or computing career, or who are interested in joining the field of computing.', img:'' }
+
   
 ];

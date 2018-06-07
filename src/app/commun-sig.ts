@@ -9,7 +9,8 @@ export const SIG: Commun[] = [
 
   { title: 'Student-ResearcHers', mailing: 'http://systers.org/mailman/listinfo/student-researchers', desc:' The purpose of these gatherings is to give us a chance to socialize with other women who attend the IETF and to offer mutual support in our IETF activities. ', img:'' },
 
-  { title: 'Systers-TechTalk', mailing: 'http://systers.org/mailman/listinfo/systers-techtalk', desc:'Systers-Techtalk is a private email forum for technical discussions by women who are university students or working in the technical side of computing .Systers-Techtalk follows the rules and guidelines dictated by Systers FAQs ', img:'' },
+  { title: 'Systers-TechTalk', mailing: 'http://systers.org/mailman/listinfo/systers-techtalk', desc:'Systers-Techtalk is a private email forum for technical discussions by women who are university students or working in the technical side of computing . ', img:'' },
+
 
   { title: 'Systers-Wikipedia', mailing: 'http://systers.org/mailman/listinfo/systers-wikipedia', desc:'Join a list for female Wikipedians.', img:'' },
 

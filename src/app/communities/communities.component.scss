@@ -1,5 +1,4 @@
 center{
-	margin : 30px;
     font-family: 'Source Sans Pro', sans-serif;
 
 }
@@ -13,11 +12,29 @@ center{
 	height :40%;
 	width :100%;
 }
+
 .card{
-	height : 90%;
-	width : 70%;
-	margin-bottom :20px;
+	height : 100%;
+	width : 90%;
+	
 }
 ngb-tabset{
 	margin-top :10px;
+	
+}
+h2{
+	font-family: 'Source Sans Pro', sans-serif;
+	margin:30px;
+}
+.cimage{
+    max-height: 550px;
+    width : 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .cimage{
+    max-height: 450px;
+    width : 100%;
+}
+  
 }

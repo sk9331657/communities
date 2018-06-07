@@ -1,6 +1,7 @@
 import { Commun } from './communty';
 export const MAILG: Commun[] = [
-   { title: 'Ph.D.JobHuntHers', mailing: 'http://systers.org/mailman/listinfo/phdjobhunthers', desc:'This moderated mailing list supports women who are seeking or beginning doctorate-level jobs in computer science, computer engineering, or information technology either in academia, industry, or government laboratories.', img:'' },
+
+   { title: 'Ph.D.JobHuntHers', mailing: 'http://systers.org/mailman/listinfo/phdjobhunthers', desc:'This moderated mailing list supports women who are seekingjobs in computer engineering, or information technology either in academia, industry, or government laboratories.', img:'' },
 
   { title: 'ProfessHers', mailing: 'http://systers.org/mailman/listinfo/professhers', desc:'This moderated mailing list provides a venue for  women faculty members in computer science computer engineering and information technology to informally discuss job-related issues and career advancement.', img:'' },
 
