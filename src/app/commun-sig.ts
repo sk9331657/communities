@@ -11,6 +11,7 @@ export const SIG: Commun[] = [
 
   { title: 'Systers-TechTalk', mailing: 'http://systers.org/mailman/listinfo/systers-techtalk', desc:'Systers-Techtalk is a private email forum for technical discussions by women who are university students or working in the technical side of computing . ', img:'' },
 
+
   { title: 'Systers-Wikipedia', mailing: 'http://systers.org/mailman/listinfo/systers-wikipedia', desc:'Join a list for female Wikipedians.', img:'' },
 
   { title: ' Women in Cybersecurity & Privacy', mailing: 'https://www.wicys.net/', desc:'Join women from academia, research, and industry to network share knowledge and provide or receive mentoring in cybersecurity.', img:'' }

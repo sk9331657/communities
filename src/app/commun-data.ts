@@ -13,7 +13,6 @@ export const COMM: Commun[] = [
   { title: 'Filipinas in Computing', mailing: 'http://systers.org/mailman/listinfo/filipinasic/', desc:'Our group  brings together Filipina women interested in, working in, or studying computing or STEM. Our goal is to promote the visibility and impact of Filipinas in tech, and to celebrate their success in the industry.', img:'' },
   
   { title: 'Indian Women in Computing', mailing: 'http://systers.org/mailman/listinfo/indianwic/', desc:'Our group offers guidance and mentoring to our members so they may succeed in the fields of computing and technology.', img:'' },
-
   { title: 'Iranian Women in Computing', mailing: 'https://www.facebook.com/groups/abi.iranianwic/', desc:'Our group builds a strong network of Iranian female students and professionals working in different technology-related fields. ', img:'' },
 
   { title: 'Japanese Women in Computing', mailing: 'https://systers.org/mailman/listinfo/japanesewic', desc:'Engage with our group members by sharing experiences and resources with each other. Make valuable connections and learn how you can further your career.', img:'' },
@@ -35,5 +34,6 @@ export const COMM: Commun[] = [
    { title: 'Underrepresented Women in Computing', mailing: 'https://www.facebook.com/groups/WoC.Computing/', desc:'This group was created by and for underrepresented women in computing (Hispanic/Latina, Native American, women of color, and women with disabilities).', img:'' },
 
   { title: 'Vietnamese Women in Computing', mailing: 'http://systers.org/mailman/listinfo/twics/', desc:'Vietnamese Women in Computing consists of women with Vietnamese heritage who have a computing degree or computing career, or who are interested in joining the field of computing.', img:'' }
+
   
 ];
