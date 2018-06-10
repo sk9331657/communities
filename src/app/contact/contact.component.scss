@@ -13,11 +13,10 @@
 	margin: 30px;
 	
 }
-
-center{
-	color : rgb(141,33,101);
-	margin :20px;
+.logos{
+	margin-top:20px;
 }
+
 
 .info{
 	margin-left :20px;
@@ -40,4 +39,27 @@ center{
 	}
 	
 
+}
+.uploadImageButton{
+  background-color :#54BCEB;
+}
+h2{
+	margin :20px;
+	color:#54BCEB;
+	font-family: BrandonTextWeb-Regular, "Times New Roman", Times, serif;
+}
+h3
+{
+	font-family: BrandonTextWeb-Regular, "Times New Roman", Times, serif;
+	color:rgb(141,33,101);
+}
+.ctgrp {
+    display: -webkit-flex; /* Safari */
+    -webkit-align-items: center; /* Safari 7.0+ */
+    display: flex;
+    align-items: center;
+   
+}
+.box-v{
+	 margin-top : 60px;
 }

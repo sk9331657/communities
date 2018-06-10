@@ -12,7 +12,7 @@ import { EventsComponent } from './events/events.component';
 import { RouterModule, Routes } from '@angular/router';
 import { AppRoutingModule } from './/app-routing.module';
 import { CommunitiesComponent } from './communities/communities.component';
-import { FormsModule }   from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CalendarModule } from 'angular-calendar';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
@@ -33,6 +33,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     NgbModule.forRoot(),
     CalendarModule.forRoot(),
     FormsModule,
+    ReactiveFormsModule,
     MDBBootstrapModule.forRoot(),
     
   ],
