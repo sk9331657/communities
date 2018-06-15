@@ -1,7 +1,7 @@
 .card{
 	margin : 30px;
 	font-family : Acme;
-	box-shadow: 4px 4px #54BCEB;
+	
 }
 center{
 	margin : 15px;
@@ -94,7 +94,7 @@ p {
 
     p {
       color: #fff;
-      font-size: 15px;
+      font-size: 12px;
       margin: 0;
       padding: 8px;
     }
@@ -104,7 +104,8 @@ p {
 #f1 {
   .front-face,
   .back-face-center {
-    background-color: #e84c3d;
+    background-color: #A38BB8;
+   font-family: 'Source Sans Pro', sans-serif;
   }
   .front-face {
     img {
@@ -117,7 +118,8 @@ p {
 #f2 {
   .front-face,
   .back-face-center {
-    background-color: #2a80b9;
+    background-color: #8d2165;
+    font-family: 'Source Sans Pro', sans-serif;
   }
   .front-face {
     img {
@@ -130,7 +132,9 @@ p {
 #f3 {
   .front-face,
   .back-face-center {
-    background-color: #16a086;
+    background-color: #A38BB8;
+    font-family: 'Source Sans Pro', sans-serif;
+
   }
   .front-face {
     img {

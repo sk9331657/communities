@@ -34,7 +34,11 @@ for (var _i = 0; _i < 40; _i++) {
       end:new Date(num.end),
       title:num.title,
       location:num.location,
-      description:num.description
+      description:num.description,
+       meta: {
+        incrementsBadgeTotal: false
+      }
+      
     });
     }
     
@@ -95,6 +99,7 @@ export class CalendarComponent implements OnInit {
     this.modalData = { event, action };
     this.modal.open(this.modalContent, { size: 'lg' });
   }
+  
 
 
 

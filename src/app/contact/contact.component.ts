@@ -11,6 +11,7 @@ import { Observable } from 'rxjs/Observable';
   styleUrls: ['./contact.component.scss']
 })
 
+
 export class ContactComponent implements OnInit {
 
 signin = new FormGroup({
@@ -18,9 +19,9 @@ signin = new FormGroup({
   email: new FormControl(null, Validators.required),
   captcha: new FormControl(),
 });
-	
 
   constructor() { 
+
   }
 
   ngOnInit() {
@@ -29,6 +30,5 @@ signin = new FormGroup({
   onSubmit(){
   
   }
- 
 
 }

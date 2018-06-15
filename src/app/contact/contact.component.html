@@ -1,5 +1,5 @@
 <div class="imgel">
-	<img src = "../assets/img/contact.png" class = "contact-banner">
+  <img src = "../assets/img/contact.png" class = "contact-banner">
 </div>
 <div class=" container box logos mx-auto d-block">
   <div class="row">
@@ -22,16 +22,21 @@
 
 </div>
 
-<div class="container mx-auto d-block text-center box-v" style="margin: 70px; ">
-   
-  <div class="row ctgrp " style="margin: auto; ">
+<div class="container mx-auto d-block text-center box-v" style="margin: 70px;" >
+
+    <div style="width:50%; margin: auto;">
+    
+    </div>
+  <div class="row ctgrp" style="margin: auto;">
 
     <!-- <div class="col-xs-2"></div> -->
     <div class="col-md-7 col-md-offset-5 container box logos mx-auto d-block">
       <!-- Contact form -->
 
       <!-- <form (submit)="onSubmit();" action="https://www.enformed.io/5z7161c6 " method="POST"> -->
-      <form [formGroup]="signin" (submit)="onSubmit();" action="https://getsimpleform.com/messages?form_api_token=7b004d6e9d7a7e646a27c2fd58ee1001" method="post"  style="margin: auto; " >
+
+      <form [formGroup]="signin" (submit)="onSubmit();" action="https://getsimpleform.com/messages?form_api_token=7b004d6e9d7a7e646a27c2fd58ee1001" method="post" style="margin: auto; " >
+      <input type='hidden' class="form-control" name='redirect_to' value='http://localhost:4200/contact-success'>
 
         <!-- Name of person submitting form -->
         <h3>Name</h3>
@@ -42,7 +47,8 @@
         <input id="email" type="text" class="form-control" name="email" placeholder="Email" formControlName="email">
 
         <!-- Message they want to send -->
-        <h3>Questions or Comments?</h3>
+
+        <h3>Questions or Comments</h3>
         <textarea name="paragraph_text" input id="message" type="text" class="form-control" name="message" placeholder="Want to start a community? Need funding for events?"
           maxlength="250" cols="15" rows="12" ngModel></textarea>
     
@@ -62,4 +68,6 @@
       </form>
     </div>
     </div>
-</div>
+
+    </div>
+

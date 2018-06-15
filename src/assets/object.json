@@ -1,56 +1,10 @@
 [
   {
-    "start": "2018-06-06",
-    "end": "2018-06-06",
-    "title": "Scrum Check-in Due",
-    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread."
-  },
-  {
-    "start": "2018-06-07",
-    "end": "2018-06-07",
-    "title": "Week 4 PR(s) Due",
-    "description": "<b>Submit your PR(s) for Week 4's Goals.</b>",
-    "location": "GitHub Repo(s)"
-  },
-  {
-    "start": "2018-06-08",
-    "end": "2018-06-08",
-    "title": "GSoC Happy Hour",
-    "description": "<b>Icebreaker Questions:</b><br><ul><li></li><li><br></li></ul><br><br><b>Meeting Details:</b><br>Join from PC, Mac, Linux, iOS or Android: <a href=\"https://www.google.com/url?q=https%3A%2F%2Fzoom.us%2Fj%2F793825359&amp;sa=D&amp;usd=2&amp;usg=AFQjCNGB5iQWmqfRSKZkulK-d_aW25gkCQ\" target=\"_blank\">https://zoom.us/j/793825359</a><br>Join from Web Browser: <a href=\"https://www.google.com/url?q=https%3A%2F%2Fzoom.us%2Fwc%2Fjoin%2F793825359&amp;sa=D&amp;usd=2&amp;usg=AFQjCNGrmQHwqhr_wLipL70s_jwKY7lHaQ\" target=\"_blank\">https://zoom.us/wc/join/793825359</a><br><br><br><i>Questions stolen from:&nbsp;<a href=\"https://www.google.com/url?q=https%3A%2F%2Fwww.collaborationsuperpowers.com%2F44-icebreakers-for-virtual-teams%2F&amp;sa=D&amp;usd=2&amp;usg=AFQjCNFxzLzb58KYquKFg42XDfZExqZNkw\" target=\"_blank\">https://www.collaborationsuperpowers.com/44-icebreakers-for-virtual-teams/</a></i>",
-    "location": "https://zoom.us/j/793825359"
-  },
-  {
-    "start": "2018-06-08",
-    "end": "2018-06-08",
-    "title": "Week 4 Wiki Report Due",
-    "description": "<b>Submit your Weekly Wiki Report for Week 4.</b>",
-    "location": "GitHub Wiki"
-  },
-  {
-    "start": "2018-06-08",
-    "end": "2018-06-08",
-    "title": "Scrum Check-in Due",
-    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread."
-  },
-  {
     "start": "2018-06-11",
     "end": "2018-06-11",
     "title": "Evalutions - First",
     "description": "Mentors and students submit their evaluations of one another. These evaluations are a required step of the program.",
     "location": "https://summerofcode.withgoogle.com/"
-  },
-  {
-    "start": "2018-06-11",
-    "end": "2018-06-11",
-    "title": "Scrum Check-in Due",
-    "description": "\nTemplate:\n*What have you completed since the last check-in?*\n1. \n2. \n3. \n\n\n*What do you plan to complete by the next check-in?*\n1. \n2. \n3. \n\n*What is getting in your way?*\n1. \n2. \n3. \n\nPlace a :heavy_check_mark: when you've read this check-in. If there's something that you would want me to add on my agenda for this week, please comment in this thread."
-  },
-  {
-    "start": "2018-06-11",
-    "end": "2018-06-11",
-    "title": "Week 4 Blog Post(s) Due",
-    "description": "<b>Post your Blog Post(s) for Week 4.</b>",
-    "location": "Personal Blog"
   },
   {
     "start": "2018-06-13",
@@ -89,6 +43,11 @@
     "start": "2018-06-16",
     "end": "2018-06-16",
     "title": "Resume Review Session"
+  },
+  {
+    "start": "2018-06-17",
+    "end": "2018-06-17",
+    "title": "PyCon Peer Proposal Review Session"
   },
   {
     "start": "2018-06-18",
