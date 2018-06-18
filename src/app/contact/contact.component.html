@@ -1,41 +1,18 @@
 <div class="imgel">
   <img src = "../assets/img/contact.png" class = "contact-banner">
 </div>
-<div class=" container box logos mx-auto d-block">
-  <div class="row">
-    <div class="col-md-4">
-      <a href="https://systers-opensource.slack.com/">
-        <button type="button" class="btn btn-rounded btn-lg btn-block waves-light brand-c" mdbWavesEffect style="background-color: #54BCEB; width:50%; margin: auto;">Slack</button>
-      </a>
-    </div>
-    <div class="col-md-4">
-      <a href="https://github.com/systers/communities/">
-        <button type="button" class="btn btn-rounded waves-light brand-c btn-lg btn-block" mdbWavesEffect style="background-color: #54BCEB;width:50%;margin: auto;">Github</button>
-      </a>
-    </div>
-    <div class="col-md-4">
-      <a href="http://systers.org/mailman/listinfo/systers-opensource">
-        <button type="button" class="btn btn-rounded waves-light brand-c btn-lg btn-block" mdbWavesEffect style="background-color: #54BCEB;width:50%; margin: auto;">Mailing List</button>
-      </a>
-    </div>
-  </div>
 
-</div>
 
-<div class="container mx-auto d-block text-center box-v" style="margin: 70px;" >
+<div class="container mx-auto d-block box-v" style="margin: 70px;" >
 
-    <div style="width:50%; margin: auto;">
-    
-    </div>
-  <div class="row ctgrp" style="margin: auto;">
-
+  <div class="row ctgrp" >
     <!-- <div class="col-xs-2"></div> -->
-    <div class="col-md-7 col-md-offset-5 container box logos mx-auto d-block">
+    <div class="col-md-7  container box ">
       <!-- Contact form -->
 
       <!-- <form (submit)="onSubmit();" action="https://www.enformed.io/5z7161c6 " method="POST"> -->
 
-      <form [formGroup]="signin" (submit)="onSubmit();" action="https://getsimpleform.com/messages?form_api_token=7b004d6e9d7a7e646a27c2fd58ee1001" method="post" style="margin: auto; " >
+      <form [formGroup]="signin" (submit)="onSubmit();" action="https://getsimpleform.com/messages?form_api_token=7b004d6e9d7a7e646a27c2fd58ee1001" method="post"  >
       <input type='hidden' class="form-control" name='redirect_to' value='http://localhost:4200/contact-success'>
 
         <!-- Name of person submitting form -->
@@ -47,7 +24,6 @@
         <input id="email" type="text" class="form-control" name="email" placeholder="Email" formControlName="email">
 
         <!-- Message they want to send -->
-
         <h3>Questions or Comments</h3>
         <textarea name="paragraph_text" input id="message" type="text" class="form-control" name="message" placeholder="Want to start a community? Need funding for events?"
           maxlength="250" cols="15" rows="12" ngModel></textarea>
@@ -67,7 +43,28 @@
 
       </form>
     </div>
-    </div>
+    <div class="col-md-5 mx-auto d-block">
+    <center><h3> Join Us </h3></center>
+    <div class="card">
+      <div class="row justify-content-center join">
+        <div class="col-md-9">     
+          <i class="fa fa-slack" aria-hidden="true"></i><a href="https://systers-opensource.slack.com/"><span>Slack</span></a>
+        </div>
+      </div>
+      <div class="row justify-content-center join">
+        <div class="col-md-9 col-md-offset-3">     
+          <i class="fa fa-github" aria-hidden="true"></i><a href="https://systers-opensource.slack.com/"><span>Github</span></a>
+        </div>
+      </div>
+      <div class="row justify-content-center join">
+        <div class="col-md-9 col-md-offset-3">     
+         <i class="fa fa-envelope" aria-hidden="true"></i><a href="https://systers-opensource.slack.com/"><span>Mailing list</span></a>
+        </div>
+      </div>
 
     </div>
+    </div>
+    </div>
+
+  </div>
 

@@ -103,8 +103,8 @@
       </div>
       <div class="back-face-center">
       <h5> About {{events[0].title}} </h5>
-        <p> {{ events[0].description}}
-         </p>
+
+        <p [innerHTML] ="events[0].description" style="word-wrap: break-word ;" ></p> 
 
       </div>
     </div>
@@ -121,7 +121,8 @@
       <div class="back-face-center">  
         <h5> About {{events[1].title}} </h5>
 
-        <p> {{ events[1].description}}</p>
+        <p [innerHTML] ="events[1].description" style="word-wrap: break-word ;" ></p> 
+
 
       </div>
     </div>
@@ -136,8 +137,7 @@
       </div>
       <div class="back-face-center">
         <h5> About {{events[2].title}} </h5>
-        <p> {{ events[2].description}}
-         </p>
+        <p [innerHTML] ="events[2].description" style="word-wrap: break-word ;" ></p> 
 
       </div>
     </div>

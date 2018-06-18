@@ -20,15 +20,16 @@ signin = new FormGroup({
   captcha: new FormControl(),
 });
 
+
+
   constructor() { 
+
 
   }
 
   ngOnInit() {
    
   }
-  onSubmit(){
-  
-  }
+
 
 }
