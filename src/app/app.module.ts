@@ -15,6 +15,7 @@ import { CommunitiesComponent } from './communities/communities.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { CalendarModule } from 'angular-calendar';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgbModalModule } from '@ng-bootstrap/ng-bootstrap';
 import { SuccessComponent } from './success/success.component';
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { SuccessComponent } from './success/success.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    NgbModalModule.forRoot(),
     AppRoutingModule,
     NgbModule.forRoot(),
     CalendarModule.forRoot(),

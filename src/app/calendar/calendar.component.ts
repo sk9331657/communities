@@ -2,7 +2,8 @@ import { Component, ChangeDetectionStrategy, ViewChild, OnInit, TemplateRef } fr
 import { startOfDay, endOfDay, subDays, addDays, endOfMonth, isSameDay, isSameMonth, addHours } from 'date-fns';
 import { Subject } from 'rxjs/Subject';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
-import { CalendarEvent,CalendarEventTimesChangedEvent } from 'angular-calendar';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { CalendarEvent,CalendarEventTimesChangedEvent,CalendarDateFormatter } from 'angular-calendar';
 import word from '../caldata';
 
 const colors: any = {
