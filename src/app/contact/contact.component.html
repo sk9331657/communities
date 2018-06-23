@@ -22,6 +22,9 @@
         <!-- Email address -->
         <h3>Email</h3>
         <input id="email" type="text" class="form-control" name="email" placeholder="Email" formControlName="email">
+        <div *ngIf="email.errors?.pattern">
+             <p style="color:red;">Enter a valid email ID</p>
+        </div> 
 
         <!-- Message they want to send -->
         <h3>Questions or Comments</h3>
