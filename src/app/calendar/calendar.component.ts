@@ -26,7 +26,8 @@ interface res {
     title: string;
 }
 let arr = [];
-for (var _i = 0; _i < 40; _i++) {
+var _i=0;
+while(word[_i]) {
     var num = word[_i];
 
     if(num){
@@ -42,6 +43,7 @@ for (var _i = 0; _i < 40; _i++) {
       
     });
     }
+    _i++;
     
 }
 console.log(arr);
