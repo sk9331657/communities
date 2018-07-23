@@ -1,0 +1,75 @@
+<div class="imgel">
+  <img src = "../assets/img/contact.png" class = "contact-banner">
+</div>
+
+
+<div class="container mx-auto d-block box-v" style="margin: 70px;" >
+
+  <div class="row ctgrp" >
+    <!-- <div class="col-xs-2"></div> -->
+    <div class="col-md-7  container box ">
+      <!-- Contact form -->
+
+      <!-- <form (submit)="onSubmit();" action="https://www.enformed.io/5z7161c6 " method="POST"> -->
+
+      <form [formGroup]="signin" (submit)="onSubmit();" action="https://getsimpleform.com/messages?form_api_token=7b004d6e9d7a7e646a27c2fd58ee1001" method="post"  >
+      <input type='hidden' class="form-control" name='redirect_to' value='http://localhost:4200/contact-success'>
+
+        <!-- Name of person submitting form -->
+        <h3>Name</h3>
+        <input id="name" type="text" class="form-control" name="name" size="150" placeholder="Name"  formControlName="name">
+
+        <!-- Email address -->
+        <h3>Email</h3>
+        <input id="email" type="text" class="form-control" name="email" placeholder="Email" formControlName="email">
+        <div *ngIf="email.errors?.pattern">
+             <p style="color:red;">Enter a valid email ID</p>
+        </div> 
+
+        <!-- Message they want to send -->
+        <h3>Questions or Comments</h3>
+        <textarea name="paragraph_text" input id="message" type="text" class="form-control" name="message" placeholder="Want to start a community? Need funding for events?"
+          maxlength="250" cols="15" rows="12" ></textarea>
+    
+
+        <br>
+        <br>
+        <!-- <input type="hidden" name="*redirect" value="http://localhost:4200/contact" /> -->
+        <!-- Submit button -->
+        <button type="submit" class="btn btn-md uploadImageButton" [disabled]="signin.invalid"  id="submit-btn">Send</button>
+
+        <!-- <input type="hidden" name="*honeypot" /> -->
+        
+
+        <br>
+        <br>
+
+      </form>
+    </div>
+    <div class="col-md-5 mx-auto d-block">
+    <center><h3> Join Us </h3></center>
+    <div class="card">
+      <div class="row justify-content-center join">
+        <div class="col-md-9">     
+          <i class="fa fa-slack" aria-hidden="true"></i><a href="https://systers-opensource.slack.com/"><span>Slack</span></a>
+        </div>
+      </div>
+      <div class="row justify-content-center join">
+        <div class="col-md-9 col-md-offset-3">     
+          <i class="fa fa-github" aria-hidden="true"></i><a href="https://systers-opensource.slack.com/"><span>Github</span></a>
+        </div>
+      </div>
+      <div class="row justify-content-center join">
+        <div class="col-md-9 col-md-offset-3">     
+
+         <i class="fa fa-envelope" aria-hidden="true"></i><a href="https://systers-opensource.slack.com/"><span>Mailing list</span></a>
+
+        </div>
+      </div>
+
+    </div>
+    </div>
+    </div>
+
+  </div>
+

@@ -1,0 +1,82 @@
+
+h2{
+	color:#54BCEB;
+}
+a{
+	color: rgb(141,33,101);
+}
+center{
+	color : rgb(141,33,101);
+	margin :20px;
+}
+h1{
+	color:#54BCEB;
+	font-size: 60px;
+}
+
+.info{
+	margin-left :20px;
+	margin-right :20px;
+}
+
+span{
+	margin-left:10px;
+}
+
+.join{
+	margin:20px;
+	font-size:25px;
+	font-family: BrandonTextWeb-Regular, "Times New Roman", Times, serif;
+}
+.social{
+	align-items: center;
+}
+@media only screen and (max-width: 600px) {
+    .info{
+    	margin-right : 5px;
+    	margin-left :5px;
+    	font-size : 12px;
+    }
+    .data{
+		font-size : 12px;
+	}
+	.fa{
+		height:4px;
+	}
+	
+
+}
+
+.contact-banner{
+	height: 70%;
+	width: 100%;
+}
+.brand-c{
+	background-color : #54BCEB;
+	margin : 8px;
+	margin-top : 18px;
+	align:center;
+}
+
+.card{
+	margin: 30px;
+	
+}
+.logos{
+	margin-top:20px;
+}
+
+.uploadImageButton{
+  background-color :#54BCEB;
+}
+h2{
+	margin :20px;
+	color:#54BCEB;
+	font-family: BrandonTextWeb-Regular, "Times New Roman", Times, serif;
+}
+h3
+{
+	font-family: BrandonTextWeb-Regular, "Times New Roman", Times, serif;
+	color:rgb(141,33,101);
+
+}
