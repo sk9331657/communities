@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import word from '../caldata';
 let arr = [];
-for (var _i = 0; _i < 40; _i++) {
+var _i=0;
+while(word[_i]) {
     var num = word[_i];
     var today = new Date();
     if(new Date(num.start)>=today){
@@ -12,7 +13,9 @@ for (var _i = 0; _i < 40; _i++) {
       location:num.location,
       description:num.description
     });
+
     }
+    _i++;
     
 }
 console.log(arr);
