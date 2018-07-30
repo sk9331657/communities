@@ -18,7 +18,7 @@ while(word[_i]) {
     _i++;
     
 }
-console.log(arr);
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
