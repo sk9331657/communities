@@ -29,13 +29,20 @@ let arr = [];
 var _i=0;
 while(word[_i]) {
     var num = word[_i];
-
+    var col;
+    if(num.color=='red'){
+      col = colors.red;
+    }
+    else{
+    col= colors.blue;
+    }
     if(num){
       arr.push({
       start:new Date(num.start),
       end:new Date(num.end),
       title:num.title,
       location:num.location,
+      color: col,
       description:num.description,
        meta: {
         incrementsBadgeTotal: false
