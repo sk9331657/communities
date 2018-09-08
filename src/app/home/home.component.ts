@@ -14,6 +14,7 @@ for (var _i = 0; _i < 40; _i++) {
     });
     }
     
+    
 }
 console.log(arr);
 @Component({
