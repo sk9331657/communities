@@ -1,4 +1,7 @@
-
+.mainb{
+	margin: 70px;
+	overflow-x: hidden;
+}
 h2{
 	color:#54BCEB;
 }
@@ -26,10 +29,25 @@ span{
 .join{
 	margin:20px;
 	font-size:25px;
-	font-family: BrandonTextWeb-Regular, "Times New Roman", Times, serif;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 .social{
 	align-items: center;
+}
+.cimage{
+    max-height: 800px;
+    width : 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .cimage{
+    max-height: 600px;
+    width : 100%;
+}
+.mainb{
+	margin: 0px;
+	overflow-x: hidden;
+}
 }
 @media only screen and (max-width: 600px) {
     .info{
@@ -43,14 +61,15 @@ span{
 	.fa{
 		height:4px;
 	}
-	
+
 
 }
 
 .contact-banner{
-	height: 70%;
+	height: 570px;
 	width: 100%;
 }
+
 .brand-c{
 	background-color : #54BCEB;
 	margin : 8px;
@@ -72,11 +91,11 @@ span{
 h2{
 	margin :20px;
 	color:#54BCEB;
-	font-family: BrandonTextWeb-Regular, "Times New Roman", Times, serif;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 h3
 {
-	font-family: BrandonTextWeb-Regular, "Times New Roman", Times, serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	color:rgb(141,33,101);
 
 }

@@ -6,4 +6,11 @@ text-decoration:underline;
 text-decoration-color: white;
 background-color: white;
 border-radius: 25px;
+.foot{
+	height:9vh;
 }
+@media only screen and (max-width: 1024px) {
+    .social_icons
+    {
+        display: none;
+    }
