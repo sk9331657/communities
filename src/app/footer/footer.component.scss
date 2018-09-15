@@ -1,11 +1,12 @@
 //Styling Terms and Conditions , Privacy Policy
-#terms:hover
+#terms:hover=false;
 {
 color:black;
 text-decoration:underline;
 text-decoration-color: white;
 background-color: white;
 border-radius: 25px;
+}
 .foot{
 	height:9vh;
 }
